@@ -1,0 +1,65 @@
+.Intro-Logo {
+  width: 401px;
+  height: 537px;
+  position: absolute;
+  left: 460px;
+  top: 34px;
+}
+
+.Button {
+  width: 309px;
+  height: 98px;
+  position: absolute;
+  left: 510px;
+  top: 920px;
+  overflow: hidden;
+}
+.Button-Rectangle {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 175, 55, 1) 1.5625%,
+    rgba(157, 103, 22, 1) 50%,
+    rgba(65, 59, 3, 1) 100%
+  );
+  border-radius: 40px;
+  width: 303px;
+  height: 98px;
+  position: absolute;
+  left: 6px;
+  top: -1px;
+}
+.Button-Text {
+  color: #000000;
+  text-align: center;
+  font: 600 25px "Times New Roman", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 30px;
+}
+.Text-Box {
+  width: 1290px;
+  height: 305px;
+  position: absolute;
+  left: 200px;
+  top: 558px;
+  overflow: hidden;
+}
+.Text-Background {
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: 50px;
+  width: 989px;
+  height: 300px;
+  position: absolute;
+  left: 1px;
+  top: 5px;
+}
+.Text {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Times New Roman", sans-serif;
+  position: absolute;
+  left: calc(50% - 480px);
+  top: 30px;
+  width: 944px;
+  height: 255px;
+}
