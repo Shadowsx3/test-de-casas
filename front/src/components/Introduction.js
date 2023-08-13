@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+
 const Introduction = () => {
   return (
     <>
-      <img class="Intro-Logo" src="./ESCUDO-SIN-FONDO.png" />
+      <img className="Intro-Logo" src="./ESCUDO-SIN-FONDO.png" />
       <div class="Button">
         <Link to="/quiz">
-          <div class="Button-Rectangle"></div>
-          <div class="Button-Text">Empezar test</div>
+          <div className="Button-Rectangle"></div>
+          <div className="Button-Text">Empezar test</div>
         </Link>
       </div>
       <div class="Text-Box">

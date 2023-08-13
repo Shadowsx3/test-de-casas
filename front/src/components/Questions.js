@@ -1,7 +1,7 @@
 //HOLY FUCK THIS TOOK FUCKING FOREVER
 //orden: dragon,zorro,unicornio y fénix
 
-const questions = [
+export const questions = [
   {
     questionText:
       "Has sido atrapado tratando de robar un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import questions from "./Questions";
-import questionText from "./Questions"; //i dont get why it doesnt work
+import { questions } from "./Questions";
 
 export default function Quiz() {
   const answerValue = [0, 0, 0, 0];
@@ -16,7 +15,7 @@ export default function Quiz() {
             <div className="Text">
               <span>Question 1</span>/{questions.length}
             </div>
-            <div className="Text">{questions[0]}</div>
+            <div className="Text">{questions[0].questionText}</div>
           </div>
           <div className="Text-Background">
             <button>Answer 1</button>
