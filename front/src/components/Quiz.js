@@ -3,6 +3,8 @@ import { questions } from "./Questions";
 
 export default function Quiz() {
   const answerValue = [0, 0, 0, 0];
+  const [currentQuestion, setCurrentQuestion] = useState(23);
+
   return (
     <>
       {false ? (
@@ -15,13 +17,16 @@ export default function Quiz() {
             <div className="Text">
               <span>Question 1</span>/{questions.length}
             </div>
-            <div className="Text">{questions[0].questionText}</div>
+            <div className="Text">
+              {questions[currentQuestion].questionText}
+            </div>
           </div>
           <div className="Text-Background">
-            <button>Answer 1</button>
-            <button>Answer 2</button>
-            <button>Answer 3</button>
-            <button>Answer 4</button>
+            {questions[currentQuestion].answerOptions.map(
+              (answerOption, index) => (
+                <button>{answerOption.answerText}</button>
+              )
+            )}
           </div>
         </>
       )}
