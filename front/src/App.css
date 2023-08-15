@@ -6,6 +6,24 @@
   top: 34px;
 }
 
+button {
+  width: 100%;
+  font:600 17px "Times New Roman", sans-serif;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: 50px;
+  width: 515px;
+  height: 245px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #101011;
+}
+
 .Button {
   width: 309px;
   height: 98px;
@@ -62,4 +80,69 @@
   top: 30px;
   width: 944px;
   height: 255px;
+}
+
+.Question-Background {
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: 50px;
+  width: 1163px;
+  height: 203px;
+  position: absolute;
+  left: 631px;
+  top: 180px;
+}
+
+.Question-Text {
+  color: #ffffff;
+  text-align: center;
+  font: 400 20px "Times New Roman", sans-serif;
+  position: absolute;
+  left: calc(50% - 577px);
+  top: 72px;
+  width: 1091px;
+  height: 108px;
+}
+
+.Quiz-Logo {
+  width: 548px;
+  height: 597px;
+  position: absolute;
+  left: 48px;
+  top: 374px;
+}
+
+.Question-1 {
+  width: 515px;
+  height: 245px;
+  position: absolute;
+  left: 631px;
+  top: 442px;
+  overflow: hidden;
+}
+
+.Question-2 {
+  width: 515px;
+  height: 245px;
+  position: absolute;
+  left: 1279px;
+  top: 442px;
+  overflow: hidden;
+}
+
+.Question-3 {
+  width: 509px;
+  height: 243px;
+  position: absolute;
+  left: 631px;
+  top: 737px;
+  overflow: hidden;
+}
+
+.Question-4 {
+  width: 515px;
+  height: 245px;
+  position: absolute;
+  left: 1279px;
+  top: 736px;
+  overflow: hidden;
 }
