@@ -5,7 +5,7 @@ export const questions = [
   {
     questionText:
       "Has sido atrapado tratando de robar un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
-    questionIcon: "./TEST RECURSOS/1.png",
+    questionIcon: "/1.png",
     answerOptions: [
       {
         answerText:
@@ -32,7 +32,7 @@ export const questions = [
   {
     questionText:
       "La Academia está preparando un exámen que equivale al 50% de la calificación final del año. Tú, por algún motivo inexplicable, no estudiaste nada. ¿Qué haces?",
-    questionIcon: "./TEST RECURSOS/2.png",
+    questionIcon: "/2.png",
     answerOptions: [
       {
         answerText:
@@ -55,7 +55,7 @@ export const questions = [
   {
     questionText:
       "Necesitas obtener información de alguien que no es muy receptivo. ¿Qué haces?",
-    questionIcon: "./TEST RECURSOS/3.png",
+    questionIcon: "/3.png",
     answerOptions: [
       {
         answerText:
@@ -77,17 +77,17 @@ export const questions = [
   },
   {
     questionText: "Escoge un número.",
-    questionIcon: "./TEST RECURSOS/3.png",
+    questionIcon: "/3.png",
     answerOptions: [
-      { answerText: "./TEST RECURSOS/4-2.png" },
-      { answerText: "./TEST RECURSOS/4-4.png" },
-      { answerText: "./TEST RECURSOS/4-3.png" },
-      { answerText: "./TEST RECURSOS/4-1.png" },
+      { answerText: "/4-2.png" },
+      { answerText: "/4-4.png" },
+      { answerText: "/4-3.png" },
+      { answerText: "/4-1.png" },
     ],
   },
   {
     questionText: "Escoge una carta.",
-    questionIcon: "./TEST RECURSOS/3.png",
+    questionIcon: "/3.png",
     answerOptions: [
       { answerText: "La Carroza" },
       { answerText: "El Loco" },
@@ -98,7 +98,7 @@ export const questions = [
   {
     questionText:
       "Te despiertas y te encuentras en un cuerpo que no es el tuyo. Estás en una habitación con cosas que no reconoces, miras detrás de ti y ves una luz roja brillante en la ventana, que proviene de la luna, la cual está teñida de rojo sangre. Asombrado por el escenario, se cae el libro que ya estaba en tus manos cuando despertaste. ¿Qué haces?",
-    questionIcon: "./TEST RECURSOS/6.png",
+    questionIcon: "/6.png",
     answerOptions: [
       {
         answerText:
@@ -120,7 +120,7 @@ export const questions = [
   },
   {
     questionText: "Elige uno:",
-    questionIcon: "./TEST RECURSOS/6.png",
+    questionIcon: "/6.png",
     answerOptions: [
       { answerText: "ETHOS" },
       { answerText: "KAIROS" },
@@ -130,7 +130,7 @@ export const questions = [
   },
   {
     questionText: "Tipos de almas: ¿cuál piensas que es tu rol?",
-    questionIcon: "./TEST RECURSOS/6.png",
+    questionIcon: "/6.png",
     answerOptions: [
       { answerText: "GUERRERO" },
       { answerText: "ARTESANO" },
@@ -141,7 +141,7 @@ export const questions = [
   {
     questionText:
       "Reencarnaste en un mundo de fantasía, sin lazos a tu vida pasada, pero memorias y conocimientos intactos. ¿Cuál sería tu objetivo principal?",
-    questionIcon: "./TEST RECURSOS/9.png",
+    questionIcon: "/9.png",
     answerOptions: [
       {
         answerText:
@@ -164,7 +164,7 @@ export const questions = [
   {
     questionText:
       "Si cometes un error que causa una pérdida, ¿qué pensamientos te vienen a la mente?",
-    questionIcon: "./TEST RECURSOS/10.png",
+    questionIcon: "/10.png",
     answerOptions: [
       {
         answerText:
@@ -187,7 +187,7 @@ export const questions = [
   {
     questionText:
       "Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, usted:",
-    questionIcon: "./TEST RECURSOS/11.png",
+    questionIcon: "/11.png",
     answerOptions: [
       {
         answerText:
@@ -209,7 +209,7 @@ export const questions = [
   {
     questionText:
       "Se forma un debate en la clase, en el cual, no estás de acuerdo con la opinión mayoritaria de tus compañeros. Tú…",
-    questionIcon: "./TEST RECURSOS/12.png",
+    questionIcon: "/12.png",
     answerOptions: [
       {
         answerText:
@@ -232,7 +232,7 @@ export const questions = [
   {
     questionText:
       "Una flor que tarda un siglo en florecer, ha florecido justo en la época que estás viviendo. Está flor está protegida y su uso está restringido solo para el consejo de magia, ya que florecen en poca cantidad. Si sabes que esta flor sirve para potenciar todas las pócimas existentes, tú…",
-    questionIcon: "./TEST RECURSOS/13.png",
+    questionIcon: "/13.png",
     answerOptions: [
       {
         answerText:
@@ -255,7 +255,7 @@ export const questions = [
   {
     questionText:
       "Te encuentras junto a un compañero en una bóveda donde se guardan importantes reliquias mágicas de distintas civilizaciones que ya no existen. En ese momento se presenta una catástrofe en la Academia y no puedes dejar que ciertos objetos se pierdan, pero también tu compañero está en problemas. ¿Qué haces?",
-    questionIcon: "./TEST RECURSOS/14.png",
+    questionIcon: "/14.png",
     answerOptions: [
       {
         answerText:
@@ -277,7 +277,7 @@ export const questions = [
   },
   {
     questionText: "¿Qué darías a cambio de lo que tu corazón más desea?",
-    questionIcon: "./TEST RECURSOS/15.png",
+    questionIcon: "/15.png",
     answerOptions: [
       { answerText: "Lo imposible." },
       { answerText: "Lo que puedo permitirme perder." },
@@ -288,7 +288,7 @@ export const questions = [
   {
     questionText:
       "Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
-    questionIcon: "./TEST RECURSOS/16.png",
+    questionIcon: "/16.png",
     answerOptions: [
       {
         answerText:
@@ -310,7 +310,7 @@ export const questions = [
   },
   {
     questionText: "¿Qué crees que le da sentido a la vida?",
-    questionIcon: "./TEST RECURSOS/17.png",
+    questionIcon: "/17.png",
     answerOptions: [
       {
         answerText:
@@ -332,7 +332,7 @@ export const questions = [
   },
   {
     questionText: "Piensas que…",
-    questionIcon: "./TEST RECURSOS/18.png",
+    questionIcon: "/18.png",
     answerOptions: [
       { answerText: "El país es unido porque la gente es feliz." },
       { answerText: "El país es fuerte porque la gente es libre." },
@@ -342,7 +342,7 @@ export const questions = [
   },
   {
     questionText: "Sí tuvieras que escoger una frase...",
-    questionIcon: "./TEST RECURSOS/19.png",
+    questionIcon: "/19.png",
     answerOptions: [
       { answerText: "No importa lo lento que vayas mientras no te detengas." },
       {
@@ -361,7 +361,7 @@ export const questions = [
   },
   {
     questionText: "El alma se daña por la falta de...",
-    questionIcon: "./TEST RECURSOS/19.png",
+    questionIcon: "/19.png",
     answerOptions: [
       { answerText: "Comunidad." },
       { answerText: "Coraje." },
@@ -371,7 +371,7 @@ export const questions = [
   },
   {
     questionText: "Escoge una pieza de Ajedrez.",
-    questionIcon: "./TEST RECURSOS/19.png",
+    questionIcon: "/19.png",
     answerOptions: [
       { answerText: "La Torre" },
       { answerText: "El Caballo" },
@@ -382,7 +382,7 @@ export const questions = [
   {
     questionText:
       "La emoción más longeva y fuerte de la historia de la humanidad es…",
-    questionIcon: "./TEST RECURSOS/19.png",
+    questionIcon: "/19.png",
     answerOptions: [
       { answerText: "Ira" },
       { answerText: "Sorpresa" },
@@ -392,7 +392,7 @@ export const questions = [
   },
   {
     questionText: "Si tuvieras que escoger un camino...",
-    questionIcon: "./TEST RECURSOS/23.png",
+    questionIcon: "/23.png",
     answerOptions: [
       {
         answerText:
@@ -414,7 +414,7 @@ export const questions = [
   },
   {
     questionText: "En una orquesta, ¿en qué parte estás?",
-    questionIcon: "./TEST RECURSOS/24.png",
+    questionIcon: "/24.png",
     answerOptions: [
       { answerText: "Eres un músico de la orquesta." },
       { answerText: "En el público." },
@@ -424,7 +424,7 @@ export const questions = [
   },
   {
     questionText: "La esencia del ser humano es…",
-    questionIcon: "./TEST RECURSOS/24.png",
+    questionIcon: "/24.png",
     answerOptions: [
       { answerText: "Su corazón." },
       { answerText: "Su sexto sentido." },

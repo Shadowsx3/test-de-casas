@@ -3,16 +3,20 @@ import { Link } from "react-router-dom";
 const Introduction = () => {
   return (
     <>
-      <img className="Intro-Logo" src="./ESCUDO-SIN-FONDO.png" />
-      <div class="Button">
+      <img
+        className="Intro-Logo"
+        alt="intro logo"
+        src="./ESCUDO-SIN-FONDO.png"
+      />
+      <div className="Button">
         <Link to="/quiz">
           <div className="Button-Rectangle"></div>
           <div className="Button-Text">Empezar test</div>
         </Link>
       </div>
-      <div class="Text-Box">
-        <div class="Text-Background">
-          <div class="Text">
+      <div className="Text-Box">
+        <div className="Text-Background">
+          <div className="Text">
             <h3>
               Por favor, futuro estudiante de la Academia, responder las
               siguientes preguntas con el corazón de frente, la cabeza fría y el

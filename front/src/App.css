@@ -8,7 +8,7 @@
 
 button {
   width: 100%;
-  font:600 17px "Times New Roman", sans-serif;
+  font:600 20px "Times New Roman", sans-serif;
   color: #ffffff;
   background: rgba(0, 0, 0, 0.78);
   border-radius: 50px;
@@ -32,6 +32,7 @@ button:hover {
   top: 920px;
   overflow: hidden;
 }
+
 .Button-Rectangle {
   background: linear-gradient(
     180deg,
@@ -53,6 +54,11 @@ button:hover {
   position: absolute;
   left: 85px;
   top: 30px;
+}
+.questionText {
+  margin: auto;
+  padding: 10px;
+  width: 90%;
 }
 .Text-Box {
   width: 1290px;
@@ -93,14 +99,13 @@ button:hover {
 }
 
 .Question-Text {
+  border-radius: 50px;
   color: #ffffff;
   text-align: center;
-  font: 400 20px "Times New Roman", sans-serif;
-  position: absolute;
-  left: calc(50% - 577px);
-  top: 72px;
-  width: 1091px;
-  height: 108px;
+  font: 400 24px "Times New Roman", sans-serif;
+  margin: auto;
+  padding: 10px;
+  width: 90%;
 }
 
 .Quiz-Logo {

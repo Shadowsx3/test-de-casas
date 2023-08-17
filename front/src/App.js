@@ -17,8 +17,8 @@ const App = () => {
     <div
       style={{
         backgroundImage: `url("./FONDO.png")`,
-        width: "1821px",
-        height: "1176px",
+        width: "100vw",
+        height: "100vh",
       }}
     >
       <Router>
