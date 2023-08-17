@@ -4,13 +4,16 @@ import { questions } from "./Questions";
 export default function Quiz() {
   const [responses, setResponses] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentIcon, setCurrentIcon] = useState(0);
   const limit = 25;
 
   const handleAnswerButtonClick = (index) => {
     const nextQuestion = currentQuestion + 1;
+    const nextIcon = currentIcon + 1;
     if (nextQuestion < limit) {
       setResponses([...responses, [currentQuestion, index]]);
       setCurrentQuestion(nextQuestion);
+      setCurrentIcon(nextIcon);
     } else {
       console.log(responses);
       alert("No more questions for you");
@@ -19,7 +22,7 @@ export default function Quiz() {
 
   return (
     <>
-      <img className="Quiz-Logo" src="./TEST RECURSOS/1.png" />
+      <img className="Quiz-Logo" src={questions[currentIcon].questionIcon} />
       {false ? (
         <div className="Text-Background">
           You scored 1 out of {questions.length}
