@@ -16,8 +16,13 @@ function Question(props) {
   );
 }
 
+function SetValue(props) {
+  const answerValue = [0, 0, 0, 0];
+}
+
 function AnswerOption(props) {
   const { answerOption, isImage, index, onClick } = props;
+
   return (
     <button className={`Question-${index + 1}`} onClick={() => onClick(index)}>
       {isImage ? (
@@ -44,6 +49,7 @@ export default function Quiz() {
     if (nextQuestion < limit) {
       setResponses([...responses, [currentQuestion, index]]);
       setCurrentQuestion(nextQuestion);
+      SetValue(index);
     } else {
       console.log(responses);
       alert("No more questions for you");
