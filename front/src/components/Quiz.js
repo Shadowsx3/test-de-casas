@@ -7,9 +7,9 @@ export default function Quiz() {
   const limit = 25;
 
   const handleAnswerButtonClick = (index) => {
-    setResponses([...responses, [currentQuestion, index]]);
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < limit) {
+      setResponses([...responses, [currentQuestion, index]]);
       setCurrentQuestion(nextQuestion);
     } else {
       console.log(responses);
