@@ -8,7 +8,7 @@
 
 button {
   width: 100%;
-  font:600 20px "Times New Roman", sans-serif;
+  font:600 25px "Times New Roman", sans-serif;
   color: #ffffff;
   background: rgba(0, 0, 0, 0.78);
   border-radius: 50px;
@@ -61,11 +61,11 @@ button:hover {
   width: 90%;
 }
 .Text-Box {
-  width: 1290px;
-  height: 305px;
+  width: 1290vw;
+  height: 305vh;
   position: absolute;
   left: 200px;
-  top: 558px;
+  top: 600px;
   overflow: hidden;
 }
 .Text-Background {
@@ -82,10 +82,10 @@ button:hover {
   text-align: center;
   font: 400 20px "Times New Roman", sans-serif;
   position: absolute;
-  left: calc(50% - 480px);
+  left: calc(50% - 380px);
   top: 30px;
-  width: 944px;
-  height: 255px;
+  width: 50vw;
+  height: 50vh;
 }
 
 .Question-Background {
@@ -118,7 +118,7 @@ button:hover {
 
 .Question-1 {
   width: 515px;
-  height: 245px;
+  height: 345px;
   position: absolute;
   left: 631px;
   top: 442px;
@@ -127,7 +127,7 @@ button:hover {
 
 .Question-2 {
   width: 515px;
-  height: 245px;
+  height: 345px;
   position: absolute;
   left: 1279px;
   top: 442px;
@@ -136,18 +136,18 @@ button:hover {
 
 .Question-3 {
   width: 509px;
-  height: 243px;
+  height: 343px;
   position: absolute;
   left: 631px;
-  top: 737px;
+  top: 837px;
   overflow: hidden;
 }
 
 .Question-4 {
   width: 515px;
-  height: 245px;
+  height: 345px;
   position: absolute;
   left: 1279px;
-  top: 736px;
+  top: 837px;
   overflow: hidden;
 }

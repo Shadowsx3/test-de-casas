@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { questions } from "./Questions";
+import Result from "./Result";
 
 function Question(props) {
   const { responses, currentQuestion } = props;
@@ -21,7 +22,7 @@ function AnswerOption(props) {
     <button className={`Question-${index + 1}`} onClick={() => onClick(index)}>
       {isImage ? (
         <img
-          style={{ width: "70%", height: "70%" }}
+          style={{ width: "90%", height: "90%" }}
           className="questionImage"
           src={`./recursos${answerOption.answerText}`}
           alt="answer"
@@ -46,6 +47,7 @@ export default function Quiz() {
     } else {
       console.log(responses);
       alert("No more questions for you");
+      return Result;
     }
   };
 

@@ -8,12 +8,6 @@ const Introduction = () => {
         alt="intro logo"
         src="./ESCUDO-SIN-FONDO.png"
       />
-      <div className="Button">
-        <Link to="/quiz">
-          <div className="Button-Rectangle"></div>
-          <div className="Button-Text">Empezar test</div>
-        </Link>
-      </div>
       <div className="Text-Box">
         <div className="Text-Background">
           <div className="Text">
@@ -28,6 +22,12 @@ const Introduction = () => {
             <h2>-Thomas Who</h2>
           </div>
         </div>
+      </div>
+      <div className="Button">
+        <Link to="/quiz">
+          <div className="Button-Rectangle"></div>
+          <div className="Button-Text">Empezar test</div>
+        </Link>
       </div>
     </>
   );

@@ -89,11 +89,12 @@ export const questions = [
   {
     questionText: "Escoge una carta.",
     questionIcon: "/3.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "La Carroza" },
-      { answerText: "El Loco" },
-      { answerText: "Fuerza" },
-      { answerText: "El Emperador" },
+      { answerText: "/5-3.png" },
+      { answerText: "/5-1.png" },
+      { answerText: "/5-2.png" },
+      { answerText: "/5-4.png" },
     ],
   },
   {
@@ -122,21 +123,23 @@ export const questions = [
   {
     questionText: "Elige uno:",
     questionIcon: "/6.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "ETHOS" },
-      { answerText: "KAIROS" },
-      { answerText: "PATHOS" },
-      { answerText: "LOGOS" },
+      { answerText: "/7-2.png" },
+      { answerText: "/7-4.png" },
+      { answerText: "/7-1.png" },
+      { answerText: "/7-3.png" },
     ],
   },
   {
     questionText: "Tipos de almas: ¿cuál piensas que es tu rol?",
     questionIcon: "/6.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "GUERRERO" },
-      { answerText: "ARTESANO" },
-      { answerText: "SABIO" },
-      { answerText: "REY " },
+      { answerText: "/8-1.png" }, //guerrero
+      { answerText: "/8-4.png" }, //artesano
+      { answerText: "/8-2.png" }, //sabio
+      { answerText: "/8-6.png" }, //rey
     ],
   },
   {
@@ -363,32 +366,35 @@ export const questions = [
   {
     questionText: "El alma se daña por la falta de...",
     questionIcon: "/19.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "Comunidad." },
-      { answerText: "Coraje." },
-      { answerText: "Poder." },
-      { answerText: "Conocimiento." },
+      { answerText: "/20-3.png" }, //comunidad
+      { answerText: "/20-4.png" }, //coraje
+      { answerText: "/20-2.png" }, //poder
+      { answerText: "/20-1.png" }, //conocimiento
     ],
   },
   {
     questionText: "Escoge una pieza de Ajedrez.",
     questionIcon: "/19.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "La Torre" },
-      { answerText: "El Caballo" },
-      { answerText: "La Reina" },
-      { answerText: "El Rey" },
+      { answerText: "/21-3.png" }, //la torre
+      { answerText: "/21-4.png" }, //el caballo
+      { answerText: "/21-2.png" }, //la reina
+      { answerText: "/21-1.png" }, //el rey
     ],
   },
   {
     questionText:
       "La emoción más longeva y fuerte de la historia de la humanidad es…",
     questionIcon: "/19.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "Ira" },
-      { answerText: "Sorpresa" },
-      { answerText: "Felicidad" },
-      { answerText: "Miedo" },
+      { answerText: "/22-2.png" }, //ira
+      { answerText: "/22-4.png" }, //sorpresa
+      { answerText: "/22-3.png" }, //felicidad
+      { answerText: "/22-1.png" }, //miedo
     ],
   },
   {
@@ -426,11 +432,12 @@ export const questions = [
   {
     questionText: "La esencia del ser humano es…",
     questionIcon: "/24.png",
+    imageAnswer: true,
     answerOptions: [
-      { answerText: "Su corazón." },
-      { answerText: "Su sexto sentido." },
-      { answerText: "Sus recuerdos." },
-      { answerText: "Su razón." },
+      { answerText: "/25-1.png" }, //su corazon
+      { answerText: "/25-4.png" }, // su sexto sentido
+      { answerText: "/25-3.png" }, //sus recuerdos
+      { answerText: "/25-2.png" }, //su razon
     ],
   },
 ];
