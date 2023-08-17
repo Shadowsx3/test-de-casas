@@ -16,11 +16,19 @@ function Question(props) {
 }
 
 function AnswerOption(props) {
-  const { answerOption, index, onClick } = props;
-
+  const { answerOption, isImage, index, onClick } = props;
   return (
     <button className={`Question-${index + 1}`} onClick={() => onClick(index)}>
-      <p className="questionText">{answerOption.answerText}</p>
+      {isImage ? (
+        <img
+          style={{ width: "70%", height: "70%" }}
+          className="questionImage"
+          src={`./recursos${answerOption.answerText}`}
+          alt="answer"
+        />
+      ) : (
+        <p className="questionText">{answerOption.answerText}</p>
+      )}
     </button>
   );
 }
@@ -61,6 +69,7 @@ export default function Quiz() {
             {question.answerOptions.map((answerOption, index) => (
               <AnswerOption
                 key={index}
+                isImage={question.imageAnswer}
                 answerOption={answerOption}
                 index={index}
                 onClick={handleAnswerButtonClick}

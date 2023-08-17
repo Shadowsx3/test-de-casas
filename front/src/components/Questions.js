@@ -78,6 +78,7 @@ export const questions = [
   {
     questionText: "Escoge un número.",
     questionIcon: "/3.png",
+    imageAnswer: true,
     answerOptions: [
       { answerText: "/4-2.png" },
       { answerText: "/4-4.png" },
