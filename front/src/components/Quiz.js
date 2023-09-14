@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { questions } from "./Questions";
 import Result from "./Result";
 
+let nextValue = 0;
+
 function Question(props) {
   const { responses, currentQuestion } = props;
   const question = questions[currentQuestion];
@@ -14,10 +16,6 @@ function Question(props) {
       </div>
     </div>
   );
-}
-
-function SetValue(props) {
-  const answerValue = [0, 0, 0, 0];
 }
 
 function AnswerOption(props) {
@@ -40,8 +38,15 @@ function AnswerOption(props) {
 }
 
 export default function Quiz() {
+  const initialValue = [
+    { id: 1, value: 0 },
+    { id: 2, value: 0 },
+    { id: 3, value: 0 },
+    { id: 4, value: 0 },
+  ];
   const [responses, setResponses] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [answerValue, setAnswerValue] = useState(initialValue);
   const limit = 25;
 
   const handleAnswerButtonClick = (index) => {
@@ -49,7 +54,6 @@ export default function Quiz() {
     if (nextQuestion < limit) {
       setResponses([...responses, [currentQuestion, index]]);
       setCurrentQuestion(nextQuestion);
-      SetValue(index);
     } else {
       console.log(responses);
       alert("No more questions for you");
@@ -58,6 +62,22 @@ export default function Quiz() {
   };
 
   const question = questions[currentQuestion];
+
+  const updateAnswerValue = (index) => {
+    const newValue = answerValue.map((values) => {
+      if (index === 1 && values.id === 1) {
+        setAnswerValue([...values, { value: nextValue++ }]);
+      } else if (index === 2 && values.id === 2) {
+        setAnswerValue([...values, { value: nextValue++ }]);
+      } else if (index === 3 && values.id === 3) {
+        setAnswerValue([...values, { value: nextValue++ }]);
+      } else if (index === 4 && values.id === 4) {
+        setAnswerValue([...values, { value: nextValue++ }]);
+      }
+    });
+    console.log(newValue);
+    return newValue;
+  };
 
   return (
     <>
@@ -72,6 +92,7 @@ export default function Quiz() {
             responses={responses}
             currentQuestion={currentQuestion}
             handleAnswerButtonClick={handleAnswerButtonClick}
+            updateAnswerValue={updateAnswerValue}
           />
           <div className="Questions">
             {question.answerOptions.map((answerOption, index) => (
