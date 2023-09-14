@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { questions } from "./Questions";
-import Result from "./Result";
-
-let nextValue = 0;
+import { useNavigate } from "react-router-dom";
 
 function Question(props) {
   const { responses, currentQuestion } = props;
@@ -39,44 +37,42 @@ function AnswerOption(props) {
 
 export default function Quiz() {
   const initialValue = [
+    { id: 0, value: 0 },
     { id: 1, value: 0 },
     { id: 2, value: 0 },
     { id: 3, value: 0 },
-    { id: 4, value: 0 },
   ];
   const [responses, setResponses] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answerValue, setAnswerValue] = useState(initialValue);
   const limit = 25;
+  const navigate = useNavigate();
 
   const handleAnswerButtonClick = (index) => {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < limit) {
       setResponses([...responses, [currentQuestion, index]]);
       setCurrentQuestion(nextQuestion);
+      updateAnswerValue(index);
     } else {
       console.log(responses);
       alert("No more questions for you");
-      return Result;
+      navigate("/result");
     }
   };
 
   const question = questions[currentQuestion];
 
   const updateAnswerValue = (index) => {
-    const newValue = answerValue.map((values) => {
-      if (index === 1 && values.id === 1) {
-        setAnswerValue([...values, { value: nextValue++ }]);
-      } else if (index === 2 && values.id === 2) {
-        setAnswerValue([...values, { value: nextValue++ }]);
-      } else if (index === 3 && values.id === 3) {
-        setAnswerValue([...values, { value: nextValue++ }]);
-      } else if (index === 4 && values.id === 4) {
-        setAnswerValue([...values, { value: nextValue++ }]);
+    const updatedValue = answerValue.map((item) => {
+      if (item.id === index) {
+        return { ...item, value: item.value + 1 };
       }
+      return item;
     });
-    console.log(newValue);
-    return newValue;
+    setAnswerValue(updatedValue);
+    console.log(updatedValue);
+    console.log(index);
   };
 
   return (
@@ -92,7 +88,6 @@ export default function Quiz() {
             responses={responses}
             currentQuestion={currentQuestion}
             handleAnswerButtonClick={handleAnswerButtonClick}
-            updateAnswerValue={updateAnswerValue}
           />
           <div className="Questions">
             {question.answerOptions.map((answerOption, index) => (

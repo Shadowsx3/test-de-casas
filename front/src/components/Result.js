@@ -1,4 +1,4 @@
-function CheckResult(props) {
+function Result(props) {
   if (props[0] === 25) {
     return (
       <>
@@ -194,9 +194,9 @@ function CheckResult(props) {
     return <h1 className="Text">{">:( do the test dont be ugly"}</h1>;
   }
 }
-const Result = () => {
-  const result = [0, 0, 0, 0]; //change this later
-  return <>{CheckResult(result)}</>;
+
+const checkAnswer = (index) => {
+  updateAnswerValue(index, (updatedValue) => {});
 };
 
 export default Result;
