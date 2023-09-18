@@ -35,16 +35,10 @@ function AnswerOption(props) {
   );
 }
 
-export default function Quiz() {
-  const initialValue = [
-    { id: 0, value: 0 },
-    { id: 1, value: 0 },
-    { id: 2, value: 0 },
-    { id: 3, value: 0 },
-  ];
+export default function Quiz(props) {
   const [responses, setResponses] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [answerValue, setAnswerValue] = useState(initialValue);
+
   const limit = 25;
   const navigate = useNavigate();
 
@@ -52,11 +46,10 @@ export default function Quiz() {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < limit) {
       setResponses([...responses, [currentQuestion, index]]);
-      setCurrentQuestion(nextQuestion);
       updateAnswerValue(index);
+      setCurrentQuestion(nextQuestion);
     } else {
       console.log(responses);
-      alert("No more questions for you");
       navigate("/result");
     }
   };
@@ -64,13 +57,10 @@ export default function Quiz() {
   const question = questions[currentQuestion];
 
   const updateAnswerValue = (index) => {
-    const updatedValue = answerValue.map((item) => {
-      if (item.id === index) {
-        return { ...item, value: item.value + 1 };
-      }
-      return item;
-    });
-    setAnswerValue(updatedValue);
+    const updatedValue =
+      currentQuestion === 0 ? { 0: 0, 1: 0, 2: 0, 3: 0 } : props.answerValue;
+    updatedValue[index] = updatedValue[index] + 1;
+    props.setAnswerValue(updatedValue);
     console.log(updatedValue);
     console.log(index);
   };

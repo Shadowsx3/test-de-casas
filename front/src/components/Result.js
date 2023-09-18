@@ -1,5 +1,18 @@
+function getMaxValues(obj) {
+  const max = Math.max(...Object.values(obj));
+
+  const result = {};
+  for (const key in obj) {
+    result[key] = obj[key] === max;
+  }
+
+  return result;
+}
+
 function Result(props) {
-  if (props[0] === 25) {
+  console.log(props);
+  const finalResult = getMaxValues(props.answerValue);
+  if (finalResult[0]) {
     return (
       <>
         <img
@@ -42,7 +55,7 @@ function Result(props) {
         </div>
       </>
     );
-  } else if (props[1] === 25) {
+  } else if (finalResult[1]) {
     return (
       <>
         <img
@@ -94,7 +107,7 @@ function Result(props) {
         </div>
       </>
     );
-  } else if (props[2] === 25) {
+  } else if (finalResult[2]) {
     return (
       <>
         <img
@@ -143,7 +156,7 @@ function Result(props) {
         </div>
       </>
     );
-  } else if (props[3] === 25) {
+  } else if (finalResult[3]) {
     return (
       <>
         <img
@@ -194,9 +207,5 @@ function Result(props) {
     return <h1 className="Text">{">:( do the test dont be ugly"}</h1>;
   }
 }
-
-const checkAnswer = (index) => {
-  updateAnswerValue(index, (updatedValue) => {});
-};
 
 export default Result;
