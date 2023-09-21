@@ -10,7 +10,7 @@ function Question(props) {
     <div className="Question-Background">
       <div className="Text">
         <span>Pregunta {responses.length + 1}</span>/{questions.length}
-        <div className="Question-Text">{question.questionText}</div>
+        <div>{question.questionText}</div>
       </div>
     </div>
   );

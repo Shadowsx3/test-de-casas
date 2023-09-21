@@ -8,19 +8,17 @@ const Introduction = () => {
         alt="intro logo"
         src="./ESCUDO-SIN-FONDO.png"
       />
-      <div className="Text-Box">
-        <div className="Text-Background">
-          <div className="Text">
-            <h3>
-              Por favor, futuro estudiante de la Academia, responder las
-              siguientes preguntas con el corazón de frente, la cabeza fría y el
-              alma tranquila nos ayudará a darle un resultado más exacto. Trate
-              de no sobrepensar las respuestas, recuerde que, independiente del
-              resultado, su casa no va aferrada a su destino. Les deseo buena
-              suerte.
-            </h3>
-            <h2>-Thomas Who</h2>
-          </div>
+      <div className="Text-Background">
+        <div className="text">
+          <h3>
+            Por favor, futuro estudiante de la Academia, responder las
+            siguientes preguntas con el corazón de frente, la cabeza fría y el
+            alma tranquila nos ayudará a darle un resultado más exacto. Trate de
+            no sobrepensar las respuestas, recuerde que, independiente del
+            resultado, su casa no va aferrada a su destino. Les deseo buena
+            suerte.
+          </h3>
+          <h2>-Thomas Who</h2>
         </div>
       </div>
       <div className="Button">
