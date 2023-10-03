@@ -101,12 +101,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         right: 20,
                         top: 12,
                         bottom: 12,
-                      )),
+                      ),
+                      backgroundColor: Colors.orange),
                   child: const Text(
                     'Empezar test',
                     style: TextStyle(
-                      fontSize: 18,
-                    ),
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 )
