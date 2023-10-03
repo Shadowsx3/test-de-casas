@@ -1,262 +1,280 @@
 {
-    "questions":[
-        {
-            "questionText":"Has sido atrapado tratando de robar un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
-            "questionIcon":"/1.png",
-            "answerOptions":[
-                "Admites tu error, piensas en una excusa rápida para zafar de la situación y que con algo de suerte no te reporten a dirección.",
-                "Huyes, creando una gran ola de caos a tu paso, imposible de seguir y lo suficiente llamativa como para atraer a ojos curiosos que solo verán a quien te descubrió en la escena del crimen.",
-                "Rápidamente empiezas una disputa con quién te ha visto para desviar su atención. Tu principal argumento es que, si tú no debías estar en aquel lugar, esa persona tampoco. Le das a escoger 2 opciones, reportarte a dirección y los dos terminar en problemas, o dejarte ir.",
-                "Te mantienes tranquilo, no tomas decisiones precipitadas. Te das cuenta que quién te descubrió es un estudiante, y que no se atreverá a delatarte."
-            ]
-        },
-        {
-            "questionText":"La Academia está preparando un exámen que equivale al 50% de la calificación final del año. Tú, por algún motivo inexplicable, no estudiaste nada. ¿Qué haces?",
-            "questionIcon":"/2.png",
-            "answerOptions":[
-                "Estudias una hora antes de entrar a dar el examen y le haces todas las preguntas posibles a tu profesor, para tratar de entender algo.",
-                "El que estudia duda de sus conocimientos. Vas con tranquilidad a dar el examen confiando en tu memoria de las clases y que las respuestas llegarán a tu cabeza una vez leas las preguntas.",
-                "Estudias lo que puedes, sabiendo que no es suficiente. Preparás trampas y te sientas estratégicamente cerca de alguien que sabes que sí estudió. No puedes permitirte fallar en esto.",
-                "No vas al examen. Ir sin una base de estudios es estúpido, y no es tan difícil conseguir un justificativo médico. Te preparas con tiempo para dar el exámen recuperativo y sacar una buena calificación."
-            ]
-        },
-        {
-            "questionText":"Necesitas obtener información de alguien que no es muy receptivo. ¿Qué haces?",
-            "questionIcon":"/3.png",
-            "answerOptions":[
-                "Le presentas la opción de dejarlo ir si colabora contigo. No querrías tener que recurrir a la violencia…",
-                "Lo engañas con tus palabras para que te diga exactamente lo que buscas sin que él se dé cuenta.",
-                "Dejas unos documentos sobre la mesa, es información personal de esta persona, información que no quiere que el público vea. Lo amenazas con publicar los archivos si no te da lo que quieres.",
-                "No tienes problemas en desecharlo si es que su terquedad te roba demasiado tiempo. Sabes que vas a encontrar lo que buscas con o sin su ayuda."
-            ]
-        },
-        {
-            "questionText":"Escoge un número.",
-            "questionIcon":"/3.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/4-2.png",
-                "/4-4.png",
-                "/4-3.png",
-                "/4-1.png"
-            ]
-        },
-        {
-            "questionText":"Escoge una carta.",
-            "questionIcon":"/3.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/5-3.png",
-                "/5-1.png",
-                "/5-2.png",
-                "/5-4.png"
-            ]
-        },
-        {
-            "questionText":"Te despiertas y te encuentras en un cuerpo que no es el tuyo. Estás en una habitación con cosas que no reconoces, miras detrás de ti y ves una luz roja brillante en la ventana, que proviene de la luna, la cual está teñida de rojo sangre. Asombrado por el escenario, se cae el libro que ya estaba en tus manos cuando despertaste. ¿Qué haces?",
-            "questionIcon":"/6.png",
-            "answerOptions":[
-                "Decides explorar la habitación, no sabes las condiciones en las que has despertado y tampoco sabes cómo llegaste aquí. Prefieres no arriesgarte a salir de la habitación hasta tener una hipótesis bien formada.",
-                "Todavía no te recuperas de la confusión. Piensas que todo se trata de un sueño muy vívido, o que algún estudiante te lanzó una pócima de sueños lúcidos. Te pellizcas el brazo para tratar de despertar, y al no ocurrir nada, decides esperar hasta que despiertes.",
-                "Recoges el libro con precaución para leer su contenido. Piensas que puede ser una pista que te ayudará a decidir tus próximas acciones y a resolver tan extraña situación.",
-                "Piensas en el escenario como si fuera un test. Asumes que, de ser así, no va a haber nada útil en la habitación, por lo que decides salir a explorar. Quieres ser el primero en superar la prueba."
-            ]
-        },
-        {
-            "questionText":"Elige uno:",
-            "questionIcon":"/6.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/7-2.png",
-                "/7-4.png",
-                "/7-1.png",
-                "/7-3.png"
-            ]
-        },
-        {
-            "questionText":"Tipos de almas: ¿cuál piensas que es tu rol?",
-            "questionIcon":"/6.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/8-1.png",
-                "/8-4.png",
-                "/8-2.png",
-                "/8-6.png"
-            ]
-        },
-        {
-            "questionText":"Reencarnaste en un mundo de fantasía, sin lazos a tu vida pasada, pero memorias y conocimientos intactos. ¿Cuál sería tu objetivo principal?",
-            "questionIcon":"/9.png",
-            "answerOptions":[
-                "Después de asumir que no volverás, buscas ayudar a la gente en todo tipo de ámbito, ocupando tus conocimientos de tu vida que, aunque sin lazos que te aten a ella, no puedes evitar extrañar.",
-                "Ocupar tus conocimientos previos como ventaja para vivir una vida de aventura sin verdaderas consecuencias. Ser el villano si debo serlo, o el héroe sí así me nombra la gente.",
-                "Aprender todos los secretos que esté mundo me pueda ofrecer.",
-                "Construir una nación, la perfecta utopía conmigo como líder."
-            ]
-        },
-        {
-            "questionText":"Si cometes un error que causa una pérdida, ¿qué pensamientos te vienen a la mente?",
-            "questionIcon":"/10.png",
-            "answerOptions":[
-                "Arrepentimiento y frustración conmigo mismo, no estoy seguro de qué pasos tomar a continuación.",
-                "Debo actuar con rapidez para recuperar mis pérdidas, arriesgando perder el enfoque o retrasar el objetivo. Al final, ¿qué es una buena aventura sin un poco de sorpresas?",
-                "La pérdida me tomó por sorpresa, trataré de pensar en dónde estaba el error que cometí para no volverlo a hacer. También siento un poco de frustración, ya que pensaba que mi plan era perfecto.",
-                "Si existe solución, entonces la situación es favorable. Sin embargo, si no hay solución, no tiene sentido detenerse en lo que ya ha ocurrido."
-            ]
-        },
-        {
-            "questionText":"Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, usted:",
-            "questionIcon":"/11.png",
-            "answerOptions":[
-                "Te detienes a ayudarle, después puedes conseguir los apuntes de tu clase.",
-                "Te detienes y le preguntas que te ofrece a cambio de tu ayuda. Si es algo que te gusta, lo ayudas. Si no, sigues tu camino.",
-                "Le das un consejo, pero no te involucras más allá de eso.",
-                "Lo ignoras y te vas. No puedes permitirte perder más tiempo."
-            ]
-        },
-        {
-            "questionText":"Se forma un debate en la clase, en el cual, no estás de acuerdo con la opinión mayoritaria de tus compañeros. Tú…",
-            "questionIcon":"/12.png",
-            "answerOptions":[
-                "Tratas de dar tu opinión, pero al final terminas encontrando sentido a lo que dicen los demás.",
-                "Tus compañeros están en lo correcto, pero decides persuadirlos para que estén de acuerdo contigo.",
-                "Refutas sus opiniones directamente, sabes que estás en lo correcto y no te importa que tú opinión sea parte de la minoría.",
-                "No le explicas tus pensamientos a nadie. Dejas que tus compañeros sigan en lo incorrecto para que el día del examen, puedas tener una ventaja por sobre los demás."
-            ]
-        },
-        {
-            "questionText":"Una flor que tarda un siglo en florecer, ha florecido justo en la época que estás viviendo. Está flor está protegida y su uso está restringido solo para el consejo de magia, ya que florecen en poca cantidad. Si sabes que esta flor sirve para potenciar todas las pócimas existentes, tú…",
-            "questionIcon":"/13.png",
-            "answerOptions":[
-                "No te parece correcto que su uso sea exclusivo para los altos cargos, te inclinas en buscar una opción mejor y más poderosa, a la cuál todos puedan acceder.",
-                "Te infiltras en el campo de flores y robas 10 flores. Sabes que cada flor tiene 20 pétalos y solo basta 1 para crear las más poderosas pociones. Planeas vender aquellas que no vas a ocupar en el mercado negro.",
-                "Buscas la flor en el mercado negro, infiltrarse en el campo de flores es una estupidez ya que es monitoreado exclusivamente por el consejo de magia. ",
-                "Te infiltras en el campo de flores y arrancas una sola flor, para tu uso personal."
-            ]
-        },
-        {
-            "questionText":"Te encuentras junto a un compañero en una bóveda donde se guardan importantes reliquias mágicas de distintas civilizaciones que ya no existen. En ese momento se presenta una catástrofe en la Academia y no puedes dejar que ciertos objetos se pierdan, pero también tu compañero está en problemas. ¿Qué haces?",
-            "questionIcon":"/14.png",
-            "answerOptions":[
-                "Salvo a mí compañero, las reliquias son objetos y la vida de una persona es mucho más importante.",
-                "No me preocupo por ninguno de los dos, solo veo por mí mismo y mi propia seguridad.",
-                "Trato de salvar a los dos, pero si el estado de mi compañero es lo suficientemente malo para retrasarme a mí, lo dejó atrás.",
-                "Salvo las reliquias, son lo único que quedó de las civilizaciones erradicadas, su importancia histórica es demasiado importante y a veces se deben hacer sacrificios."
-            ]
-        },
-        {
-            "questionText":"¿Qué darías a cambio de lo que tu corazón más desea?",
-            "questionIcon":"/15.png",
-            "answerOptions":[
-                "Lo imposible.",
-                "Lo que puedo permitirme perder.",
-                "Todo.",
-                "Lo que vale."
-            ]
-        },
-        {
-            "questionText":"Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
-            "questionIcon":"/16.png",
-            "answerOptions":[
-                "Decides que no habrá un líder en el grupo, logras hacer que todas las ideas de tus compañeros sean escuchadas y trabajan en armonía.",
-                "Sabes que puedes hacer un trabajo mejor si estás solo. No te importa que ya haya un líder y haces lo que te dé la gana con el trabajo.",
-                "Tienes un talento natural para dar instrucciones y guiar a las personas. Tus compañeros inconscientemente te ven como el líder del grupo.",
-                "Tomas el liderazgo del grupo, no confías en alguien más para esta tarea. Además, sabes que tú puedes hacer un trabajo mejor."
-            ]
-        },
-        {
-            "questionText":"¿Qué crees que le da sentido a la vida?",
-            "questionIcon":"/17.png",
-            "answerOptions":[
-                "Vivir por una razón; todo lo que debe hacerse debe tener un propósito. Si no hay una razón bien definida de lo que estás haciendo, entonces no tiene sentido hacerlo.",
-                "Dándole a tu vida un toque creativo de música, arte o literatura. Quizás un poco de aventura por aquí y por allá, ¡es la mejor manera de darle sentido a tu vida! ",
-                "Hacer algo grande que esté libre de la participación de la voluntad de alguien excepto de la tuya. Su origen, ejecución y final están todos en ti.",
-                "Mantenerse alejado de todo lo que no se puede definir lógicamente o no tiene prueba de existencia. Creer sólo en aquellas cosas que pueden expresarse razonablemente."
-            ]
-        },
-        {
-            "questionText":"Piensas que…",
-            "questionIcon":"/18.png",
-            "answerOptions":[
-                "El país es unido porque la gente es feliz.",
-                "El país es fuerte porque la gente es libre.",
-                "Cuánto más fuerte es el país, más libre es el pueblo.",
-                "Cuánto más unido es el país, más feliz es el pueblo."
-            ]
-        },
-        {
-            "questionText":"Sí tuvieras que escoger una frase...",
-            "questionIcon":"/19.png",
-            "answerOptions":[
-                "No importa lo lento que vayas mientras no te detengas.",
-                "[...] Y los que fueron vistos bailando, fueron considerados locos por aquellos que no podían escuchar la música.",
-                "Las mentes más grandes son capaces de los vicios más grandes, así como de las virtudes más grandes.",
-                "Del más profundo de los deseos,  a menudo surge el odio más mortífero."
-            ]
-        },
-        {
-            "questionText":"El alma se daña por la falta de...",
-            "questionIcon":"/19.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/20-3.png",
-                "/20-4.png",
-                "/20-2.png",
-                "/20-1.png"
-            ]
-        },
-        {
-            "questionText":"Escoge una pieza de Ajedrez.",
-            "questionIcon":"/19.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/21-3.png",
-                "/21-4.png",
-                "/21-2.png",
-                "/21-1.png"
-            ]
-        },
-        {
-            "questionText":"La emoción más longeva y fuerte de la historia de la humanidad es…",
-            "questionIcon":"/19.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/22-2.png",
-                "/22-4.png",
-                "/22-3.png",
-                "/22-1.png"
-            ]
-        },
-        {
-            "questionText":"Si tuvieras que escoger un camino...",
-            "questionIcon":"/23.png",
-            "answerOptions":[
-                "ESTOICISMO: El bien está en la sabiduría y dominio del alma, que permite liberarse de las pasiones y deseos que perturban la vida.",
-                "CINISMO: Rechaza los convencionalismos sociales y consideraa que la única preocupación del hombre debe ser la virtud, pues sólo a través de esta se puede alcanzar la felicidad.",
-                "EPICUREISMO: El placer constituye el bien supremo pero no debe reducirse su doctrina a un placer banal y egoísta. El placer perseguido es uno modesto y sostenible a lo largo del tiempo.",
-                "ESCEPTICISMO: No hay ningún saber firme, ni puede encontrarse ninguna opinión segura. Se debe dudar de todas las cosas, fenómenos, hechos y verdades."
-            ]
-        },
-        {
-            "questionText":"En una orquesta, ¿en qué parte estás?",
-            "questionIcon":"/24.png",
-            "answerOptions":[
-                "Eres un músico de la orquesta.",
-                "En el público.",
-                "En el Palco Real.",
-                "Eres quién dirige a la orquesta."
-            ]
-        },
-        {
-            "questionText":"La esencia del ser humano es…",
-            "questionIcon":"/24.png",
-            "imageAnswer":true,
-            "answerOptions":[
-                "/25-1.png",
-                "/25-4.png",
-                "/25-3.png",
-                "/25-2.png"
-            ]
-        }
-    ]
+  "questions": [
+    {
+      "questionText": "Has sido atrapado tratando de robar un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
+      "questionIcon": "/1.png",
+      "answerOptions": [
+        "Admites tu error, piensas en una excusa rápida para zafar de la situación y que con algo de suerte no te reporten a dirección.",
+        "Huyes, creando una gran ola de caos a tu paso, imposible de seguir y lo suficiente llamativa como para atraer a ojos curiosos que solo verán a quien te descubrió en la escena del crimen.",
+        "Rápidamente empiezas una disputa con quién te ha visto para desviar su atención. Tu principal argumento es que, si tú no debías estar en aquel lugar, esa persona tampoco. Le das a escoger 2 opciones, reportarte a dirección y los dos terminar en problemas, o dejarte ir.",
+        "Te mantienes tranquilo, no tomas decisiones precipitadas. Te das cuenta que quién te descubrió es un estudiante, y que no se atreverá a delatarte."
+      ]
+    },
+    {
+      "questionText": "La Academia está preparando un exámen que equivale al 50% de la calificación final del año. Tú, por algún motivo inexplicable, no estudiaste nada. ¿Qué haces?",
+      "questionIcon": "/2.png",
+      "answerOptions": [
+        "Estudias una hora antes de entrar a dar el examen y le haces todas las preguntas posibles a tu profesor, para tratar de entender algo.",
+        "El que estudia duda de sus conocimientos. Vas con tranquilidad a dar el examen confiando en tu memoria de las clases y que las respuestas llegarán a tu cabeza una vez leas las preguntas.",
+        "Estudias lo que puedes, sabiendo que no es suficiente. Preparás trampas y te sientas estratégicamente cerca de alguien que sabes que sí estudió. No puedes permitirte fallar en esto.",
+        "No vas al examen. Ir sin una base de estudios es estúpido, y no es tan difícil conseguir un justificativo médico. Te preparas con tiempo para dar el exámen recuperativo y sacar una buena calificación."
+      ]
+    },
+    {
+      "questionText": "Necesitas obtener información de alguien que no es muy receptivo. ¿Qué haces?",
+      "questionIcon": "/3.png",
+      "answerOptions": [
+        "Le presentas la opción de dejarlo ir si colabora contigo. No querrías tener que recurrir a la violencia…",
+        "Lo engañas con tus palabras para que te diga exactamente lo que buscas sin que él se dé cuenta.",
+        "Dejas unos documentos sobre la mesa, es información personal de esta persona, información que no quiere que el público vea. Lo amenazas con publicar los archivos si no te da lo que quieres.",
+        "No tienes problemas en desecharlo si es que su terquedad te roba demasiado tiempo. Sabes que vas a encontrar lo que buscas con o sin su ayuda."
+      ]
+    },
+    {
+      "questionText": "Escoge un número.",
+      "questionIcon": "/3.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/4-2.png",
+        "/4-4.png",
+        "/4-3.png",
+        "/4-1.png"
+      ]
+    },
+    {
+      "questionText": "Escoge una carta.",
+      "questionIcon": "/3.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/5-3.png",
+        "/5-1.png",
+        "/5-2.png",
+        "/5-4.png"
+      ]
+    },
+    {
+      "questionText": "Te despiertas y te encuentras en un cuerpo que no es el tuyo. Estás en una habitación con cosas que no reconoces, miras detrás de ti y ves una luz roja brillante en la ventana, que proviene de la luna, la cual está teñida de rojo sangre. Asombrado por el escenario, se cae el libro que ya estaba en tus manos cuando despertaste. ¿Qué haces?",
+      "questionIcon": "/6.png",
+      "answerOptions": [
+        "Decides explorar la habitación, no sabes las condiciones en las que has despertado y tampoco sabes cómo llegaste aquí. Prefieres no arriesgarte a salir de la habitación hasta tener una hipótesis bien formada.",
+        "Todavía no te recuperas de la confusión. Piensas que todo se trata de un sueño muy vívido, o que algún estudiante te lanzó una pócima de sueños lúcidos. Te pellizcas el brazo para tratar de despertar, y al no ocurrir nada, decides esperar hasta que despiertes.",
+        "Recoges el libro con precaución para leer su contenido. Piensas que puede ser una pista que te ayudará a decidir tus próximas acciones y a resolver tan extraña situación.",
+        "Piensas en el escenario como si fuera un test. Asumes que, de ser así, no va a haber nada útil en la habitación, por lo que decides salir a explorar. Quieres ser el primero en superar la prueba."
+      ]
+    },
+    {
+      "questionText": "Elige uno:",
+      "questionIcon": "/6.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/7-2.png",
+        "/7-4.png",
+        "/7-1.png",
+        "/7-3.png"
+      ]
+    },
+    {
+      "questionText": "Tipos de almas: ¿cuál piensas que es tu rol?",
+      "questionIcon": "/6.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/8-1.png",
+        "/8-4.png",
+        "/8-2.png",
+        "/8-6.png"
+      ]
+    },
+    {
+      "questionText": "Reencarnaste en un mundo de fantasía, sin lazos a tu vida pasada, pero memorias y conocimientos intactos. ¿Cuál sería tu objetivo principal?",
+      "questionIcon": "/9.png",
+      "answerOptions": [
+        "Después de asumir que no volverás, buscas ayudar a la gente en todo tipo de ámbito, ocupando tus conocimientos de tu vida que, aunque sin lazos que te aten a ella, no puedes evitar extrañar.",
+        "Ocupar tus conocimientos previos como ventaja para vivir una vida de aventura sin verdaderas consecuencias. Ser el villano si debo serlo, o el héroe sí así me nombra la gente.",
+        "Aprender todos los secretos que esté mundo me pueda ofrecer.",
+        "Construir una nación, la perfecta utopía conmigo como líder."
+      ]
+    },
+    {
+      "questionText": "Si cometes un error que causa una pérdida, ¿qué pensamientos te vienen a la mente?",
+      "questionIcon": "/10.png",
+      "answerOptions": [
+        "Arrepentimiento y frustración conmigo mismo, no estoy seguro de qué pasos tomar a continuación.",
+        "Debo actuar con rapidez para recuperar mis pérdidas, arriesgando perder el enfoque o retrasar el objetivo. Al final, ¿qué es una buena aventura sin un poco de sorpresas?",
+        "La pérdida me tomó por sorpresa, trataré de pensar en dónde estaba el error que cometí para no volverlo a hacer. También siento un poco de frustración, ya que pensaba que mi plan era perfecto.",
+        "Si existe solución, entonces la situación es favorable. Sin embargo, si no hay solución, no tiene sentido detenerse en lo que ya ha ocurrido."
+      ]
+    },
+    {
+      "questionText": "Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, usted:",
+      "questionIcon": "/11.png",
+      "answerOptions": [
+        "Te detienes a ayudarle, después puedes conseguir los apuntes de tu clase.",
+        "Te detienes y le preguntas que te ofrece a cambio de tu ayuda. Si es algo que te gusta, lo ayudas. Si no, sigues tu camino.",
+        "Le das un consejo, pero no te involucras más allá de eso.",
+        "Lo ignoras y te vas. No puedes permitirte perder más tiempo."
+      ]
+    },
+    {
+      "questionText": "Se forma un debate en la clase, en el cual, no estás de acuerdo con la opinión mayoritaria de tus compañeros. Tú…",
+      "questionIcon": "/12.png",
+      "answerOptions": [
+        "Tratas de dar tu opinión, pero al final terminas encontrando sentido a lo que dicen los demás.",
+        "Tus compañeros están en lo correcto, pero decides persuadirlos para que estén de acuerdo contigo.",
+        "Refutas sus opiniones directamente, sabes que estás en lo correcto y no te importa que tú opinión sea parte de la minoría.",
+        "No le explicas tus pensamientos a nadie. Dejas que tus compañeros sigan en lo incorrecto para que el día del examen, puedas tener una ventaja por sobre los demás."
+      ]
+    },
+    {
+      "questionText": "Una flor que tarda un siglo en florecer, ha florecido justo en la época que estás viviendo. Está flor está protegida y su uso está restringido solo para el consejo de magia, ya que florecen en poca cantidad. Si sabes que esta flor sirve para potenciar todas las pócimas existentes, tú…",
+      "questionIcon": "/13.png",
+      "answerOptions": [
+        "No te parece correcto que su uso sea exclusivo para los altos cargos, te inclinas en buscar una opción mejor y más poderosa, a la cuál todos puedan acceder.",
+        "Te infiltras en el campo de flores y robas 10 flores. Sabes que cada flor tiene 20 pétalos y solo basta 1 para crear las más poderosas pociones. Planeas vender aquellas que no vas a ocupar en el mercado negro.",
+        "Buscas la flor en el mercado negro, infiltrarse en el campo de flores es una estupidez ya que es monitoreado exclusivamente por el consejo de magia. ",
+        "Te infiltras en el campo de flores y arrancas una sola flor, para tu uso personal."
+      ]
+    },
+    {
+      "questionText": "Te encuentras junto a un compañero en una bóveda donde se guardan importantes reliquias mágicas de distintas civilizaciones que ya no existen. En ese momento se presenta una catástrofe en la Academia y no puedes dejar que ciertos objetos se pierdan, pero también tu compañero está en problemas. ¿Qué haces?",
+      "questionIcon": "/14.png",
+      "answerOptions": [
+        "Salvo a mí compañero, las reliquias son objetos y la vida de una persona es mucho más importante.",
+        "No me preocupo por ninguno de los dos, solo veo por mí mismo y mi propia seguridad.",
+        "Trato de salvar a los dos, pero si el estado de mi compañero es lo suficientemente malo para retrasarme a mí, lo dejó atrás.",
+        "Salvo las reliquias, son lo único que quedó de las civilizaciones erradicadas, su importancia histórica es demasiado importante y a veces se deben hacer sacrificios."
+      ]
+    },
+    {
+      "questionText": "¿Qué darías a cambio de lo que tu corazón más desea?",
+      "questionIcon": "/15.png",
+      "answerOptions": [
+        "Lo imposible.",
+        "Lo que puedo permitirme perder.",
+        "Todo.",
+        "Lo que vale."
+      ]
+    },
+    {
+      "questionText": "Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
+      "questionIcon": "/16.png",
+      "answerOptions": [
+        "Decides que no habrá un líder en el grupo, logras hacer que todas las ideas de tus compañeros sean escuchadas y trabajan en armonía.",
+        "Sabes que puedes hacer un trabajo mejor si estás solo. No te importa que ya haya un líder y haces lo que te dé la gana con el trabajo.",
+        "Tienes un talento natural para dar instrucciones y guiar a las personas. Tus compañeros inconscientemente te ven como el líder del grupo.",
+        "Tomas el liderazgo del grupo, no confías en alguien más para esta tarea. Además, sabes que tú puedes hacer un trabajo mejor."
+      ]
+    },
+    {
+      "questionText": "¿Qué crees que le da sentido a la vida?",
+      "questionIcon": "/17.png",
+      "answerOptions": [
+        "Vivir por una razón; todo lo que debe hacerse debe tener un propósito. Si no hay una razón bien definida de lo que estás haciendo, entonces no tiene sentido hacerlo.",
+        "Dándole a tu vida un toque creativo de música, arte o literatura. Quizás un poco de aventura por aquí y por allá, ¡es la mejor manera de darle sentido a tu vida! ",
+        "Hacer algo grande que esté libre de la participación de la voluntad de alguien excepto de la tuya. Su origen, ejecución y final están todos en ti.",
+        "Mantenerse alejado de todo lo que no se puede definir lógicamente o no tiene prueba de existencia. Creer sólo en aquellas cosas que pueden expresarse razonablemente."
+      ]
+    },
+    {
+      "questionText": "Piensas que…",
+      "questionIcon": "/18.png",
+      "answerOptions": [
+        "El país es unido porque la gente es feliz.",
+        "El país es fuerte porque la gente es libre.",
+        "Cuánto más fuerte es el país, más libre es el pueblo.",
+        "Cuánto más unido es el país, más feliz es el pueblo."
+      ]
+    },
+    {
+      "questionText": "Sí tuvieras que escoger una frase...",
+      "questionIcon": "/19.png",
+      "answerOptions": [
+        "No importa lo lento que vayas mientras no te detengas.",
+        "[...] Y los que fueron vistos bailando, fueron considerados locos por aquellos que no podían escuchar la música.",
+        "Las mentes más grandes son capaces de los vicios más grandes, así como de las virtudes más grandes.",
+        "Del más profundo de los deseos,  a menudo surge el odio más mortífero."
+      ]
+    },
+    {
+      "questionText": "El alma se daña por la falta de...",
+      "questionIcon": "/19.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/20-3.png",
+        "/20-4.png",
+        "/20-2.png",
+        "/20-1.png"
+      ]
+    },
+    {
+      "questionText": "Escoge una pieza de Ajedrez.",
+      "questionIcon": "/19.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/21-3.png",
+        "/21-4.png",
+        "/21-2.png",
+        "/21-1.png"
+      ]
+    },
+    {
+      "questionText": "La emoción más longeva y fuerte de la historia de la humanidad es…",
+      "questionIcon": "/19.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/22-2.png",
+        "/22-4.png",
+        "/22-3.png",
+        "/22-1.png"
+      ]
+    },
+    {
+      "questionText": "Si tuvieras que escoger un camino...",
+      "questionIcon": "/23.png",
+      "answerOptions": [
+        "ESTOICISMO: El bien está en la sabiduría y dominio del alma, que permite liberarse de las pasiones y deseos que perturban la vida.",
+        "CINISMO: Rechaza los convencionalismos sociales y consideraa que la única preocupación del hombre debe ser la virtud, pues sólo a través de esta se puede alcanzar la felicidad.",
+        "EPICUREISMO: El placer constituye el bien supremo pero no debe reducirse su doctrina a un placer banal y egoísta. El placer perseguido es uno modesto y sostenible a lo largo del tiempo.",
+        "ESCEPTICISMO: No hay ningún saber firme, ni puede encontrarse ninguna opinión segura. Se debe dudar de todas las cosas, fenómenos, hechos y verdades."
+      ]
+    },
+    {
+      "questionText": "En una orquesta, ¿en qué parte estás?",
+      "questionIcon": "/24.png",
+      "answerOptions": [
+        "Eres un músico de la orquesta.",
+        "En el público.",
+        "En el Palco Real.",
+        "Eres quién dirige a la orquesta."
+      ]
+    },
+    {
+      "questionText": "La esencia del ser humano es…",
+      "questionIcon": "/24.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/25-1.png",
+        "/25-4.png",
+        "/25-3.png",
+        "/25-2.png"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "flag": "/DRACONUS.png",
+      "text": "La casa de Draconus es una casa de honor, fuerza, lealtad y virtud.\nA menudo se ve a sus miembros defendiendo a otros que no pueden defenderse a sí mismos y ayudando a los necesitados.\nSon valientes, honestos y desinteresados, y siempre anteponen el bien de los demás a ellos mismos.\nEstar en Draconus significa ser parte de algo más grande que uno mismo, y es un honor pertenecer a esta casa.\nLa casa de Draconus es un verdadero testimonio del poder de la bondad y la virtud y un testimonio de lo que se puede lograr a través de la unidad y la lealtad.\nSi eres una persona noble, práctica, honrada, progresiva, leal, fiel, generosa y valiente, entonces estás destinado a ser un héroe.\nTu habilidad para enfrentar desafíos y ayudar a los demás es una herramienta invaluable que te permitirá marcar la diferencia en el mundo.\nEl aprendizaje en el heroísmo es para ti, porque estás dispuesto a dar todo de ti mismo para ayudar a los demás.\nAprenderás cómo actuar en situaciones de emergencia, cómo liderar a los demás y cómo tomar decisiones difíciles en momentos críticos.\nA través de la práctica, aprenderás a ser un modelo a seguir para los demás y a inspirar a la gente a hacer lo correcto.\nTu generosidad y valentía serán un faro de esperanza para aquellos que necesiten ayuda.\nSi estás dispuesto a dejar tu huella en el mundo y a marcar la diferencia, entonces te invitamos a unirte a nosotros en la búsqueda del heroísmo.\nJuntos, podemos hacer que el mundo sea un lugar mejor.\n¡Únete a nosotros y conviértete en un héroe hoy!"
+    },
+    {
+      "flag": "/VULPIRE.png",
+      "text": "La casa de Vulpire es una casa de pensadores independientes y empíricos que se mueven por la pasión y la convicción.\nSu lealtad a sus principios y creencias es inquebrantable y se esfuerzan constantemente por hacer del mundo un lugar mejor.\nLos miembros de Vulpire son creativos, persuasivos e inteligentes, y siempre trabajan juntos para encontrar formas innovadoras de lograr sus objetivos.\nSi bien valoran su propia independencia, también valoran la cooperación y trabajarán felizmente juntos para lograr grandes cosas.\nA quienes pertenecen a Vulpire les apasiona marcar una diferencia en el mundo y siempre defienden lo que creen sin importar el costo.\nSi eres una persona independiente, empírica, vengativa, mentirosa, creativa, persuasiva, cooperativa y astuta, entonces estás destinado a ser un aventurero de la vida.\nTu habilidad para pensar en soluciones creativas y persuadir a los demás de seguir tu camino es invaluable en el mundo de la aventura y la exploración.\nEl aprendizaje en el campo de la vida y la aventura es para ti, porque tienes la habilidad de ser un líder y un modelo a seguir para los demás.\nA través de la práctica y la formación, aprenderás a aplicar tus habilidades personales para enfrentar desafíos y superar obstáculos.\nAprenderás cómo ser independiente y confiar en ti mismo, cómo ser empírico y aprender de la experiencia, cómo ser creativo y encontrar soluciones ingeniosas, y cómo ser astuto y sacar provecho de cada situación.\nTu habilidad para persuadir a los demás y cooperar en equipo será esencial en situaciones difíciles, y tu sed de venganza te motivará a seguir adelante incluso en los momentos más difíciles.\nSi estás dispuesto a usar tus habilidades personales para enfrentar los desafíos de la vida y explorar todo lo que el mundo tiene para ofrecer, entonces te invitamos a unirte a nosotros en la búsqueda de la aventura.\nJuntos, podemos hacer que la vida sea una experiencia emocionante y llena de descubrimiento.\n¡Únete a nosotros y conviértete en un aventurero de la vida hoy!"
+    },
+    {
+      "flag": "/MYSTICORN.png",
+      "text": "La casa de Mysticorn es una casa de ambición, experimentación y gloria.\nSus miembros siempre buscan aprender más sobre la magia y no tienen miedo de traspasar los límites y explorar nuevos caminos en la búsqueda de un mayor conocimiento y comprensión.\nEstán orgullosos de sus logros y siempre buscan mejorar para superar sus éxitos anteriores.\nEstar en Mysticorn es estar dedicado a una vida de constante exploración y crecimiento, y sus miembros siempre se esfuerzan por alcanzar su máximo potencial.\n¡Bienvenidos a la escuela de magia, donde la ambición, la experimentación, la gloria, el orgullo, la superioridad, la honradez, el oportunismo y la tenacidad son características altamente valoradas! Si eres una persona que se identifica con estas habilidades personales, entonces este es el lugar perfecto para ti En nuestra escuela de magia, te proporcionaremos todas las herramientas necesarias para que puedas desarrollar al máximo tus habilidades mágicas.\nDesde aprender hechizos y encantamientos avanzados hasta liderar tus propios proyectos e investigaciones, tendrás la oportunidad de explorar y experimentar en un ambiente desafiante y emocionante.\nNuestros profesores son expertos en su área y te desafiarán constantemente para que alcances tu máximo potencial.\nTambién te alentaremos a probar nuevas técnicas de magia de manera segura y responsable, y a competir de manera sana y justa con otros estudiantes de características similares.\nEn nuestra escuela, no solo aprenderás magia, sino también habilidades personales valiosas como la perseverancia, la honestidad y el liderazgo.\nTe invitamos a unirte a nuestra comunidad de magos y brujas ambiciosos, experimentales, gloriosos, orgullosos, superiores, honestos, oportunistas y tenaces, y a destacarte como uno de los mejores magos o brujas de la escuela.\n¡Te esperamos con los brazos abiertos!"
+    },
+    {
+      "flag": "/DIPHENIX.png",
+      "text": "La casa de Diphenix es una casa de determinación, lógica y rectitud.\nSus miembros son de voluntad fuerte y decididos, y son firmes en sus convicciones.\nSon sabios y reflexivos, y usan su intelecto para resolver problemas y encontrar soluciones.\nLos miembros de Diphenix son líderes naturales capaces de grandes cosas y siempre buscan abogar por lo que es justo y equitativo.\nEsta casa promueve valores como la verdad, la integridad, la justicia y la equidad, y sus miembros siempre buscan crear una sociedad más justa y equitativa.\nSi eres una persona resolutiva, lógica, justiciera, denegativa, autoritaria, mediadora, equitativa e intelectual, entonces estás destinado a ser un defensor de la ley y la justicia.\nTu habilidad para analizar situaciones complejas y tomar decisiones justas y equitativas es invaluable en el mundo de la justicia y el derecho.\nEl aprendizaje en el campo de la ley y la justicia es para ti, porque tienes la habilidad de ser un líder y un modelo a seguir para los demás.\nA través de la práctica y la formación, aprenderás a aplicar tus habilidades personales para resolver conflictos y hacer que la justicia prevalezca.\nAprenderás cómo defender los derechos de los demás y cómo trabajar en equipo para lograr objetivos comunes.\nTu habilidad para mediar y resolver conflictos será esencial en situaciones difíciles, y tu equidad y justicia serán un faro de esperanza para aquellos que buscan justicia.\nSi estás dispuesto a usar tus habilidades personales para hacer una diferencia en el mundo y luchar por lo que es justo, entonces te invitamos a unirte a nosotros en la búsqueda de la justicia.\nJuntos, podemos hacer que el mundo sea un lugar más justo y equitativo.\n¡Únete a nosotros y conviértete en un defensor de la ley y la justicia hoy!"
+    }
+  ]
 }

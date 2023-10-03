@@ -4,7 +4,8 @@ class AnswerOptionsWidget extends StatelessWidget {
   final List<dynamic> answerOptions;
   final ValueChanged<int> onAnswer; // Change the callback to accept an int
 
-  AnswerOptionsWidget({
+  const AnswerOptionsWidget({
+    super.key,
     required this.answerOptions,
     required this.onAnswer,
   });

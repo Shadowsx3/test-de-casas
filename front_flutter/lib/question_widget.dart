@@ -5,7 +5,7 @@ class QuestionWidget extends StatelessWidget {
   final dynamic questionData;
   final ValueChanged<int> onAnswer; // Change the callback to accept an int
 
-  QuestionWidget({
+  const QuestionWidget({super.key,
     required this.questionData,
     required this.onAnswer,
   });

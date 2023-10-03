@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:front_flutter/question_widget.dart';
+import 'package:front_flutter/results.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({Key? key});
@@ -13,10 +14,11 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   late List<dynamic> questionsData = [];
+  late List<dynamic> resultsData = [];
   var questionIndex = 0;
   var score = {0: 0, 1: 0, 2: 0, 3: 0};
-  late ImageProvider nextQuestionImage;
-  late Future<void> dataLoaded; // Add a Future variable to track data loading
+  late Future<void> dataLoaded;
+  final flags = ["DIPHENIX", "DRACONUS", "MYSTICORN", "VULPIRE"];
 
   @override
   void initState() {
@@ -28,6 +30,14 @@ class _QuizScreenState extends State<QuizScreen> {
     var data = await rootBundle.loadString("data/questions.json");
     setState(() {
       questionsData = json.decode(data)["questions"];
+      resultsData = json.decode(data)["results"];
+      for (var result in resultsData) {
+        precacheImage(
+            AssetImage(
+              "images/${result["flag"]}",
+            ),
+            context);
+      }
       _preloadNextImage();
     });
   }
@@ -35,11 +45,23 @@ class _QuizScreenState extends State<QuizScreen> {
   void _preloadNextImage() {
     final nextQuestionIndex = questionIndex + 1;
     if (nextQuestionIndex < questionsData.length) {
-      final nextImage = AssetImage(
-        "images/${questionsData[nextQuestionIndex]['questionIcon']}",
-      );
-      precacheImage(nextImage, context);
-      nextQuestionImage = nextImage;
+      precacheImage(
+          AssetImage(
+            "images/${questionsData[nextQuestionIndex]['questionIcon']}",
+          ),
+          context);
+
+      final nextQuestionFirstAnswer =
+          questionsData[nextQuestionIndex]['answerOptions'][0];
+      if (nextQuestionFirstAnswer.toString().contains(".png")) {
+        for (var item in questionsData[nextQuestionIndex]['answerOptions']) {
+          precacheImage(
+              AssetImage(
+                "images/$item",
+              ),
+              context);
+        }
+      }
     }
   }
 
@@ -67,28 +89,10 @@ class _QuizScreenState extends State<QuizScreen> {
                   height: double.infinity,
                 ),
                 (questionIndex >= questionsData.length)
-                    ? Center(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const Text(
-                              "¡Terminaste!",
-                              style: TextStyle(
-                                fontSize: 40,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 20),
-                            Text(
-                              "Tu casa ideal es la ${score.entries.reduce((a, b) => a.value > b.value ? a : b).key}",
-                              style: const TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
-                        ),
-                      )
+                    ? ResultsScreen(
+                        result: resultsData[score.entries
+                            .reduce((a, b) => a.value > b.value ? a : b)
+                            .key])
                     : QuestionWidget(
                         questionData: questionsData[questionIndex],
                         onAnswer: (selectedAnswerIndex) {
