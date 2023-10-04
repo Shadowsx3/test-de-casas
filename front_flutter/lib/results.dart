@@ -33,17 +33,17 @@ class ResultsScreen extends StatelessWidget {
                 child: Text(
                   result["text"],
                   style: const TextStyle(
-                    fontSize: 14,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const MyHomePage()),
+                    MaterialPageRoute(builder: (context) => const MyHomePage()),
                   );
                 },
                 style: TextButton.styleFrom(
