@@ -1,97 +1,93 @@
 {
   "questions": [
     {
-      "questionText": "Has sido atrapado tratando de robar un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
+      "questionText": "Necesitas un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
       "questionIcon": "/1.png",
       "answerOptions": [
-        "Admites tu error, piensas en una excusa rápida para zafar de la situación y que con algo de suerte no te reporten a dirección.",
-        "Huyes, creando una gran ola de caos a tu paso, imposible de seguir y lo suficiente llamativa como para atraer a ojos curiosos que solo verán a quien te descubrió en la escena del crimen.",
-        "Rápidamente empiezas una disputa con quién te ha visto para desviar su atención. Tu principal argumento es que, si tú no debías estar en aquel lugar, esa persona tampoco. Le das a escoger 2 opciones, reportarte a dirección y los dos terminar en problemas, o dejarte ir.",
-        "Te mantienes tranquilo, no tomas decisiones precipitadas. Te das cuenta que quién te descubrió es un estudiante, y que no se atreverá a delatarte."
+        "Lo tomo prestado, luego me haré responsable de las consecuencias.",
+        "Con cuidado lo robas y huyes sin ser notado, que sea una lección por restringir un área de la biblioteca.",
+        "Tomas el libro y te aseguras de inculpar a alguien más, así te quedas con las manos limpias.",
+        "Convences a las personas necesarias para tomar el libro, y por tu persuación, es pan comido."
       ]
     },
     {
-      "questionText": "La Academia está preparando un exámen que equivale al 50% de la calificación final del año. Tú, por algún motivo inexplicable, no estudiaste nada. ¿Qué haces?",
+      "questionText": "Hoy tienes un examen muy importante y por algún motivo inexplicable, no estudiaste nada. Tú...",
       "questionIcon": "/2.png",
       "answerOptions": [
-        "Estudias una hora antes de entrar a dar el examen y le haces todas las preguntas posibles a tu profesor, para tratar de entender algo.",
-        "El que estudia duda de sus conocimientos. Vas con tranquilidad a dar el examen confiando en tu memoria de las clases y que las respuestas llegarán a tu cabeza una vez leas las preguntas.",
-        "Estudias lo que puedes, sabiendo que no es suficiente. Preparás trampas y te sientas estratégicamente cerca de alguien que sabes que sí estudió. No puedes permitirte fallar en esto.",
-        "No vas al examen. Ir sin una base de estudios es estúpido, y no es tan difícil conseguir un justificativo médico. Te preparas con tiempo para dar el exámen recuperativo y sacar una buena calificación."
+        "Tal vez las verdaderas respuestas fueron los amigos que hicimos por el camino. Fallas terriblemente.",
+        "Con un grupo de amigos acuerdas de pasarse las respuestas, aquí nadie se queda atrás.",
+        "Planeas copiarte y delatas a cualquiera que actue sospechoso para librarte de culpa.",
+        "Eres fiel a tus principios y no necesitas copiar. Confiarás en tu memoria y esperarás lo mejor."
       ]
     },
     {
       "questionText": "Necesitas obtener información de alguien que no es muy receptivo. ¿Qué haces?",
       "questionIcon": "/3.png",
       "answerOptions": [
-        "Le presentas la opción de dejarlo ir si colabora contigo. No querrías tener que recurrir a la violencia…",
-        "Lo engañas con tus palabras para que te diga exactamente lo que buscas sin que él se dé cuenta.",
-        "Dejas unos documentos sobre la mesa, es información personal de esta persona, información que no quiere que el público vea. Lo amenazas con publicar los archivos si no te da lo que quieres.",
-        "No tienes problemas en desecharlo si es que su terquedad te roba demasiado tiempo. Sabes que vas a encontrar lo que buscas con o sin su ayuda."
+        "Le presentas la opción de regalarle algo tuyo si colabora. Este es un intercambio justo, regalar algo valioso te parte el alma.",
+        "Lo engañas con tus palabras para que te diga exactamente lo que buscas sin que esa persona se de cuenta.",
+        "Lo amenazas con publicar información sensible suya si no colabora contigo. No lo pensabas hacer, pero te sacas una risa",
+        "Le convences para hacerle pensar que ayudarte es la única opción, le agradeces y le haces sentir bien por hacer lo correcto."
       ]
     },
     {
-      "questionText": "Escoge un número.",
-      "questionIcon": "/3.png",
-      "imageAnswer": true,
+      "questionText": "Dos de tus amigos están discutiendo. Su discusión parece intensificarse rápidamente y tú decides...",
+      "questionIcon": "/22-2.png",
       "answerOptions": [
-        "/4-2.png",
-        "/4-4.png",
-        "/4-3.png",
-        "/4-1.png"
+        "Observar desconcertado. Participarás si las cosas empiezan a salirse de control, pero por ahora lo unico que quieres es saber que esta pasando.",
+        "Intervenir. Ninguna discusion deberia poner en peligro la unidad del grupo, y no quieres que las cosas empeoren entre ellos.",
+        "Escuchas atentamente. Solo participarás en la discusión si te parece interesante exponer tus pensamientos.",
+        "Bajar las tensiones. Hay cosas mas importantes de las que preocuparse ¡Y estan empezando a ponerte de los nervios!"
       ]
     },
     {
-      "questionText": "Escoge una carta.",
-      "questionIcon": "/3.png",
-      "imageAnswer": true,
-      "answerOptions": [
-        "/5-3.png",
-        "/5-1.png",
-        "/5-2.png",
-        "/5-4.png"
-      ]
-    },
-    {
-      "questionText": "Te despiertas y te encuentras en un cuerpo que no es el tuyo. Estás en una habitación con cosas que no reconoces, miras detrás de ti y ves una luz roja brillante en la ventana, que proviene de la luna, la cual está teñida de rojo sangre. Asombrado por el escenario, se cae el libro que ya estaba en tus manos cuando despertaste. ¿Qué haces?",
+      "questionText": "Cuando se te presentan dificultades, ¿qué haces?",
       "questionIcon": "/6.png",
       "answerOptions": [
-        "Decides explorar la habitación, no sabes las condiciones en las que has despertado y tampoco sabes cómo llegaste aquí. Prefieres no arriesgarte a salir de la habitación hasta tener una hipótesis bien formada.",
-        "Todavía no te recuperas de la confusión. Piensas que todo se trata de un sueño muy vívido, o que algún estudiante te lanzó una pócima de sueños lúcidos. Te pellizcas el brazo para tratar de despertar, y al no ocurrir nada, decides esperar hasta que despiertes.",
-        "Recoges el libro con precaución para leer su contenido. Piensas que puede ser una pista que te ayudará a decidir tus próximas acciones y a resolver tan extraña situación.",
-        "Piensas en el escenario como si fuera un test. Asumes que, de ser así, no va a haber nada útil en la habitación, por lo que decides salir a explorar. Quieres ser el primero en superar la prueba."
+        "Lo aceptas tal y como viene, aguantas y luego te recuperas o te desahogas con tus amigos en busca de apoyo.",
+        " Es posible que te derriben, pero te levantaras poco despues, las dificultades son solo temporales.",
+        "Lo tomas de frente, las dificultades solo existen para endurecerte, si estás lo suficientemente decidido no hay nada que no puedas vencer.",
+        "Intentas calmarte y dejar que todo se te escape por un tiempo, necesitas algo de tiempo para ti y concentrarte en otras cosas."
       ]
     },
     {
-      "questionText": "Elige uno:",
-      "questionIcon": "/6.png",
-      "imageAnswer": true,
+      "questionText": "Tu mejor amigo te ha traicionado y ahora debes afrontarlo, decides..",
+      "questionIcon": "/16.png",
       "answerOptions": [
-        "/7-2.png",
-        "/7-4.png",
-        "/7-1.png",
-        "/7-3.png"
+        "Te resulta difícil creerlo. Elle no sería capaz de hacer eso, debe haber un motivo mayor detrás, no hay otra explicación.",
+        "Quieres explicaciones al respecto. Discuten del tema pero al final su actitud desleal no puede ser ignorada, separar caminos será lo mejor.",
+        "Ignoras sus excusas. Cortas sus lazos lo suficiente como para mantener un ojo en elle y esperas que no vuelva a molestarte con el tema.",
+        "Intentas recuperar lo poco que queda con su debida distancia. Incluso si lo aprecias, no puedes dejar de lado tus propios intereses y bienestar."
       ]
     },
     {
-      "questionText": "Tipos de almas: ¿cuál piensas que es tu rol?",
-      "questionIcon": "/6.png",
-      "imageAnswer": true,
+      "questionText": "Tus mejores amigos harán una fiesta y están lanzando todo tipo de ideas para ver qué funciona. Tú...",
+      "questionIcon": "/12.png",
       "answerOptions": [
-        "/8-1.png",
-        "/8-4.png",
-        "/8-2.png",
-        "/8-6.png"
+        "Sugieres las cosas que te gustaria ver en la fiesta, sumandolas a la creciente pila de ideas.",
+        " Escuchas sus ideas, examinas y apruebas las mejores para tener una fiesta entretenida para todos los involucrados.",
+        "Confias en tus mejores amigos para planear una gran fiesta y no te involucras a menos que estés en contra de algo que sugieran.",
+        "Tomas el control de la planificacion y la organización, con la esperanza de poder satisfacer a todos tus amigos."
       ]
     },
     {
-      "questionText": "Reencarnaste en un mundo de fantasía, sin lazos a tu vida pasada, pero memorias y conocimientos intactos. ¿Cuál sería tu objetivo principal?",
+      "questionText": "Te encuentras una fuente de los deseos la cual va a conceder lo que sea que pidas ¿Cual es tu prioridad?",
+      "questionIcon": "/25-1.png",
+      "answerOptions": [
+        "Pides la primera cosa que venga a tu mente, te alegras por unos segundos y luego te desanimas por desperdiciar tu deseo.",
+        "Luego de pensarlo por un tiempo, decides pedir algo valioso para ti y tus amigos. Un deseo no tiene valor si no puede compartirse.",
+        "No lo dudas, sabes lo que quieres. Pides algo que te beneficie, como conocimiento o algo material.",
+        "Piensas bien tu deseo, pues tiene que ser algo útil y duradero. Decides pedir algo que te sirva para cumplir tus metas."
+      ]
+    },
+    {
+      "questionText": "Tu amigo se ha olvidado su informe para hoy en su cuarto, y ha olvidado sus llaves dentro ¿Cómo planeas recuperar el informe?",
       "questionIcon": "/9.png",
       "answerOptions": [
-        "Después de asumir que no volverás, buscas ayudar a la gente en todo tipo de ámbito, ocupando tus conocimientos de tu vida que, aunque sin lazos que te aten a ella, no puedes evitar extrañar.",
-        "Ocupar tus conocimientos previos como ventaja para vivir una vida de aventura sin verdaderas consecuencias. Ser el villano si debo serlo, o el héroe sí así me nombra la gente.",
-        "Aprender todos los secretos que esté mundo me pueda ofrecer.",
-        "Construir una nación, la perfecta utopía conmigo como líder."
+        "Debido a la urgencia del asunto te pones nervioso, no tardas en forzar la puerta para abrirla ¡Pueden cuestionar tus métodos pero no los resultados!",
+        "Te diste cuenta que podían pedirle la llave a uno de sus roomies para solucionar el problema, tarda un poco ¡Pero es válido y tiene el informe!",
+        "La situación te ha parecido hilarante por lo que empiezas a burlarte, y cinco minutos antes de entregar, haces aparecer el informe en sus manos.",
+        "Decides que esta es una lección valiosa para elle por lo que le reprochas. No obstante permites que cheque tu informe para que al menos entregue algo."
       ]
     },
     {
@@ -99,163 +95,160 @@
       "questionIcon": "/10.png",
       "answerOptions": [
         "Arrepentimiento y frustración conmigo mismo, no estoy seguro de qué pasos tomar a continuación.",
-        "Debo actuar con rapidez para recuperar mis pérdidas, arriesgando perder el enfoque o retrasar el objetivo. Al final, ¿qué es una buena aventura sin un poco de sorpresas?",
-        "La pérdida me tomó por sorpresa, trataré de pensar en dónde estaba el error que cometí para no volverlo a hacer. También siento un poco de frustración, ya que pensaba que mi plan era perfecto.",
-        "Si existe solución, entonces la situación es favorable. Sin embargo, si no hay solución, no tiene sentido detenerse en lo que ya ha ocurrido."
+        "Debo actuar con rapidez para recuperarme de mis errores, no puedo arriesgarme a perder mi enfoque.",
+        "Me frustro mucho, pero trataré de pensar en dónde cometí el error para evitar que pase de nuevo.",
+        "Los errores son inminentes, uno debe estar siempre preparado para cometerlos y aprender de ellos."
       ]
     },
     {
-      "questionText": "Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, usted:",
+      "questionText": "Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, tú…",
       "questionIcon": "/11.png",
       "answerOptions": [
         "Te detienes a ayudarle, después puedes conseguir los apuntes de tu clase.",
-        "Te detienes y le preguntas que te ofrece a cambio de tu ayuda. Si es algo que te gusta, lo ayudas. Si no, sigues tu camino.",
-        "Le das un consejo, pero no te involucras más allá de eso.",
-        "Lo ignoras y te vas. No puedes permitirte perder más tiempo."
+        "Lo ayudas. Antes de seguir tu camino le recuerdas que luego te tendrán que devolver el favor.",
+        "No es tu problema. Sigues de largo, ya tienes suficiente con llegar tarde.",
+        "Intentas encontrar el balance de ayudarle y no llegar tan tarde a clases."
       ]
     },
     {
-      "questionText": "Se forma un debate en la clase, en el cual, no estás de acuerdo con la opinión mayoritaria de tus compañeros. Tú…",
+      "questionText": "Tus amigos y tú han decidido pasar la tarde viendo algo en el cine. ¿Qué haces?",
       "questionIcon": "/12.png",
       "answerOptions": [
-        "Tratas de dar tu opinión, pero al final terminas encontrando sentido a lo que dicen los demás.",
-        "Tus compañeros están en lo correcto, pero decides persuadirlos para que estén de acuerdo contigo.",
-        "Refutas sus opiniones directamente, sabes que estás en lo correcto y no te importa que tú opinión sea parte de la minoría.",
-        "No le explicas tus pensamientos a nadie. Dejas que tus compañeros sigan en lo incorrecto para que el día del examen, puedas tener una ventaja por sobre los demás."
+        "Sugieres la pelicula que más quieres ver, pero no te molesta si terminan por no verla.",
+        "Dejas a tus amigos decidir y ver la pelicula que consideren seria la mejor para la noche.",
+        "Das tu opinion sobre la elección y les dejas decidir, interviniendo si llegan a elegir una horrible pelicula.",
+        "Das tu opinion sobre qué peliculas crees que serian más entretenidas segun  tus intereses y lo que has leído en internet."
       ]
     },
     {
-      "questionText": "Una flor que tarda un siglo en florecer, ha florecido justo en la época que estás viviendo. Está flor está protegida y su uso está restringido solo para el consejo de magia, ya que florecen en poca cantidad. Si sabes que esta flor sirve para potenciar todas las pócimas existentes, tú…",
+      "questionText": "Estás a punto de comenzar un juego de mesa con tus amigos, pero primero deben elegir qué figuras les representarán. Tú…",
       "questionIcon": "/13.png",
       "answerOptions": [
-        "No te parece correcto que su uso sea exclusivo para los altos cargos, te inclinas en buscar una opción mejor y más poderosa, a la cuál todos puedan acceder.",
-        "Te infiltras en el campo de flores y robas 10 flores. Sabes que cada flor tiene 20 pétalos y solo basta 1 para crear las más poderosas pociones. Planeas vender aquellas que no vas a ocupar en el mercado negro.",
-        "Buscas la flor en el mercado negro, infiltrarse en el campo de flores es una estupidez ya que es monitoreado exclusivamente por el consejo de magia. ",
-        "Te infiltras en el campo de flores y arrancas una sola flor, para tu uso personal."
+        "Elige primero y llevate la figura que más te guste antes de que alguien más la tome.",
+        "Deja que tus amigos elijan la figura que querias si ellos tambien la querian, pero si no es el caso, tomalo.",
+        "Fijas tus ojos en tu figura favorita y le preguntas a tus amigos si puedes quedartela si intentan tomarla. ",
+        "Deja que todos elijan primero antes de tomar la figura que más te guste de las que quedan."
       ]
     },
     {
-      "questionText": "Te encuentras junto a un compañero en una bóveda donde se guardan importantes reliquias mágicas de distintas civilizaciones que ya no existen. En ese momento se presenta una catástrofe en la Academia y no puedes dejar que ciertos objetos se pierdan, pero también tu compañero está en problemas. ¿Qué haces?",
+      "questionText": "Durante una competición, dejas atrás a un amigo para ganar. Tu amigo te dice después que está herido porque lo dejaste atrás. ¿Como reaccionas?",
       "questionIcon": "/14.png",
       "answerOptions": [
-        "Salvo a mí compañero, las reliquias son objetos y la vida de una persona es mucho más importante.",
-        "No me preocupo por ninguno de los dos, solo veo por mí mismo y mi propia seguridad.",
-        "Trato de salvar a los dos, pero si el estado de mi compañero es lo suficientemente malo para retrasarme a mí, lo dejó atrás.",
-        "Salvo las reliquias, son lo único que quedó de las civilizaciones erradicadas, su importancia histórica es demasiado importante y a veces se deben hacer sacrificios."
+        "Te arrepientes de haberle dejado atras, estabas tan concentrado en la victoria que no te detuviste a pensar como elle se sentiría.",
+        "No fue tu intención lastimarlos, después de asegurarte de que te perdonen, prometes compensarlos de alguna manera.",
+        "Todavia estás feliz de haber logrado ganar gracias a su sacrificio y crees que valió la pena, después de todo era una competencia.",
+        "Hiciste lo que sentias que tenias que hacer para ganar en aquel entonces, aun asi, te disculpas, pero ambos ganaron y eso esta bien."
       ]
     },
     {
-      "questionText": "¿Qué darías a cambio de lo que tu corazón más desea?",
+      "questionText": "De repente, te encierran bajo llave en una habitación oscura ¿Qué haces?",
       "questionIcon": "/15.png",
       "answerOptions": [
-        "Lo imposible.",
-        "Lo que puedo permitirme perder.",
-        "Todo.",
-        "Lo que vale."
+        "Con un poco de fuerza bruta logras abrir la puerta y les preguntas con bastante confusión por qué te habían encerrado.",
+        "Para algo existen los celulares, por lo que llamas a tus amigos para pedirles ayuda. Luego harás que la persona responsable pague caro.",
+        "Decides que te morirás ahí dentro para que la persona que te encerró quede traumatizada y se arrepienta toda su vida.",
+        "Esperas tranquilamente a que alguien venga a rescatarte, quizá limpias mientras tanto. Tus conocidos no tardarán en notar tu falta."
       ]
     },
     {
       "questionText": "Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
       "questionIcon": "/16.png",
       "answerOptions": [
-        "Decides que no habrá un líder en el grupo, logras hacer que todas las ideas de tus compañeros sean escuchadas y trabajan en armonía.",
-        "Sabes que puedes hacer un trabajo mejor si estás solo. No te importa que ya haya un líder y haces lo que te dé la gana con el trabajo.",
-        "Tienes un talento natural para dar instrucciones y guiar a las personas. Tus compañeros inconscientemente te ven como el líder del grupo.",
-        "Tomas el liderazgo del grupo, no confías en alguien más para esta tarea. Además, sabes que tú puedes hacer un trabajo mejor."
+        "Por la emoción de trabajar con gente nueva ya tienes una visión en mente, luego encontrarán forma de mezclarlo todo.",
+        "Rápidamente se dividen en tareas que a cada uno le guste hacer e intentan cooperar para hacer un buen trabajo.",
+        "Ignoras los aportes de tus compañeros. Trabajarás a tu propio ritmo y si tu trabajo es mejor que el suyo, los obligarás a que lo usen.",
+        "Tomas el liderazgo del grupo, solo tú puedes lograr que las ideas de tus compañeros sean escuchadas y que trabajen en armonía."
       ]
     },
     {
-      "questionText": "¿Qué crees que le da sentido a la vida?",
+      "questionText": "Después de haber seguido una serie durante años, el final te ha dejado insatisfecho por algún motivo. ¿Cómo reaccionas?",
       "questionIcon": "/17.png",
       "answerOptions": [
-        "Vivir por una razón; todo lo que debe hacerse debe tener un propósito. Si no hay una razón bien definida de lo que estás haciendo, entonces no tiene sentido hacerlo.",
-        "Dándole a tu vida un toque creativo de música, arte o literatura. Quizás un poco de aventura por aquí y por allá, ¡es la mejor manera de darle sentido a tu vida! ",
-        "Hacer algo grande que esté libre de la participación de la voluntad de alguien excepto de la tuya. Su origen, ejecución y final están todos en ti.",
-        "Mantenerse alejado de todo lo que no se puede definir lógicamente o no tiene prueba de existencia. Creer sólo en aquellas cosas que pueden expresarse razonablemente."
+        "No te importa si el final no fue perfecto para ti, siempre y cuando todos lo disfruten, el viaje fue muy gratificante.",
+        "Te quejas de lo malo que fue el final por un rato pero pronto dejas de hablar de ello.",
+        "Te opones de forma beligerante al final y expresas muy abiertamente tu digusto y opinión al respecto.",
+        "Supones que cada uno tiene sus gustos y preferencias, y el final simplemente no se alineó con los tuyos."
       ]
     },
     {
-      "questionText": "Piensas que…",
+      "questionText": "Has estado luchando con algo últimamente y se ha vuelto tan notorio que un amigo se ha ofrecido a ayudarte. Tu...",
       "questionIcon": "/18.png",
       "answerOptions": [
-        "El país es unido porque la gente es feliz.",
-        "El país es fuerte porque la gente es libre.",
-        "Cuánto más fuerte es el país, más libre es el pueblo.",
-        "Cuánto más unido es el país, más feliz es el pueblo."
+        "Aceptas su ayuda, cualquiera que quiera echarte una mano en lo que estás haciendo es más que bienvenido.",
+        "No quisieras molestarle, pero si está seguro, estarás más que feliz de aceptar su ayuda y apreciar profundamente el gesto.",
+        "Rechazas su ayuda, si no puedes hacerlo solo pues no mereces terminarlo en primer lugar, necesitas demostrar tu valia.",
+        "Escuchas los consejos de tu amigo, pero prefieres ocuparte de las cosas tú mismo."
       ]
     },
     {
-      "questionText": "Sí tuvieras que escoger una frase...",
+      "questionText": "¿Cómo sueles acercarte a conocer gente nueva?",
       "questionIcon": "/19.png",
       "answerOptions": [
-        "No importa lo lento que vayas mientras no te detengas.",
-        "[...] Y los que fueron vistos bailando, fueron considerados locos por aquellos que no podían escuchar la música.",
-        "Las mentes más grandes son capaces de los vicios más grandes, así como de las virtudes más grandes.",
-        "Del más profundo de los deseos,  a menudo surge el odio más mortífero."
+        "Con ilusión y ganas de conocerlos. Esperas que puedan ser amigos.",
+        "Con cierto cuidado, pero aún dispuesto a participar.",
+        "Con renuencia o evitación. Pocas veces tienes interés en hacer amigos.",
+        "Con interés. Siempre es bueno tener contactos de todo tipo."
       ]
     },
     {
-      "questionText": "El alma se daña por la falta de...",
+      "questionText": "Cuando estás jugando, formando parte de un equipo con otras personas, a menudo...",
       "questionIcon": "/19.png",
-      "imageAnswer": true,
       "answerOptions": [
-        "/20-3.png",
-        "/20-4.png",
-        "/20-2.png",
-        "/20-1.png"
+        "Juegas como quieras sin importar la situación, confias en las habilidades de tu equipo.",
+        " Haces lo que creas que es más eficaz, pero consideras otras opciones si a tu equipo no le esta yendo demasiado bien.",
+        "Te limitas a un rol con el que estés familiarizado y que sepas que beneficiara más a tu equipo.",
+        "Intentas ser lo mas útil posible para el equipo haciendo lo que más se necesite, independientemente de tus propios deseos."
       ]
     },
     {
-      "questionText": "Escoge una pieza de Ajedrez.",
+      "questionText": "¿Cómo te sientes al ser el centro de atención?",
       "questionIcon": "/19.png",
-      "imageAnswer": true,
       "answerOptions": [
-        "/21-3.png",
-        "/21-4.png",
-        "/21-2.png",
-        "/21-1.png"
+        "Se siente muy bien y es hasta energizante.",
+        "No te gusta y evitas activamente ser el centro de atención",
+        "Te encanta que se te aclame por tus logros, lo mereces.",
+        "Por fuera te muestras tolerandolo de forma humilde, pero te gusta."
       ]
     },
     {
-      "questionText": "La emoción más longeva y fuerte de la historia de la humanidad es…",
+      "questionText": "Cuando te sientes estresado, ¿qué prefieres hacer?",
       "questionIcon": "/19.png",
-      "imageAnswer": true,
       "answerOptions": [
-        "/22-2.png",
-        "/22-4.png",
-        "/22-3.png",
-        "/22-1.png"
+        "Hablas con alguien al respecto. Eres muy vocal sobre tus sentimientos y te ayuda a procesarlos.",
+        "Le dejas saber a tus amigos que te sientes mal y que te tomarás un tiempo.",
+        "Te aislas sin explicación. Lo que menos quieres es compartir tu propio espacio en estos momentos.",
+        "Confias en que tomarte un descanso será suficiente, pero si alguien quiere consolarte, tampoco se lo negarás."
       ]
     },
     {
-      "questionText": "Si tuvieras que escoger un camino...",
+      "questionText": "¡Nos invaden los extraterrestres! ¿Qué hacemos?",
       "questionIcon": "/23.png",
       "answerOptions": [
-        "ESTOICISMO: El bien está en la sabiduría y dominio del alma, que permite liberarse de las pasiones y deseos que perturban la vida.",
-        "CINISMO: Rechaza los convencionalismos sociales y consideraa que la única preocupación del hombre debe ser la virtud, pues sólo a través de esta se puede alcanzar la felicidad.",
-        "EPICUREISMO: El placer constituye el bien supremo pero no debe reducirse su doctrina a un placer banal y egoísta. El placer perseguido es uno modesto y sostenible a lo largo del tiempo.",
-        "ESCEPTICISMO: No hay ningún saber firme, ni puede encontrarse ninguna opinión segura. Se debe dudar de todas las cosas, fenómenos, hechos y verdades."
+        "¡Sin dudarlo te diriges al combate para proteger a tus amigos y todo el planeta!",
+        "Decides proteger a los tuyos tomando la decisión de huir todos juntos. Solo un idiota enfrentaría esas cosas.",
+        "¿Por qué deberías hacer algo? Eso es responsabilidad del gobierno, tú no tienes por qué entrometerte.",
+        "Con la percepción de la realidad bien alterada confías en tus habilidades para hacer una alianza entre los aliens y el planeta."
       ]
     },
     {
-      "questionText": "En una orquesta, ¿en qué parte estás?",
+      "questionText": "Te gusta una persona... Pero no es fácil dar el primer paso. ¿Cómo llamas su atención?",
       "questionIcon": "/24.png",
       "answerOptions": [
-        "Eres un músico de la orquesta.",
-        "En el público.",
-        "En el Palco Real.",
-        "Eres quién dirige a la orquesta."
+        "Te declaras sin pensarlo dos veces, no te pasa por la cabeza la chance de ser rechazado.",
+        "De forma discreta intentas abordar la conversación pero sin ser tan directo, necesitas saber cómo podría reaccionar.",
+        "Tu no te confiesas, la gente se te confieza. Esperarás a que de el primer paso y si no lo hace, no lo merecías.",
+        "Los invitas a pasar el tiempo contigo y planeas muy bien la noche para que la confesión sea el momento estrella de la cita."
       ]
     },
     {
-      "questionText": "La esencia del ser humano es…",
+      "questionText": "Por último, y esta es la pregunta más importante...¿Qué Pou eres?",
       "questionIcon": "/24.png",
       "imageAnswer": true,
       "answerOptions": [
-        "/25-1.png",
-        "/25-4.png",
-        "/25-3.png",
-        "/25-2.png"
+        "/26-1.png",
+        "/26-4.png",
+        "/26-3.png",
+        "/26-2.png"
       ]
     }
   ],
