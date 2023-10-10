@@ -5,7 +5,8 @@ class QuestionWidget extends StatelessWidget {
   final dynamic questionData;
   final ValueChanged<int> onAnswer; // Change the callback to accept an int
 
-  const QuestionWidget({super.key,
+  const QuestionWidget({
+    super.key,
     required this.questionData,
     required this.onAnswer,
   });
@@ -24,7 +25,7 @@ class QuestionWidget extends StatelessWidget {
             Image.asset(
               "images/$questionIcon",
               fit: BoxFit.fitHeight,
-              width: 250,
+              width: 350,
             ),
             SingleChildScrollView(
               child: Column(

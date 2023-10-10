@@ -52,7 +52,7 @@
     },
     {
       "questionText": "Tu mejor amigo te ha traicionado y ahora debes afrontarlo, decides..",
-      "questionIcon": "/16.png",
+      "questionIcon": "/6.png",
       "answerOptions": [
         "Te resulta difícil creerlo. Elle no sería capaz de hacer eso, debe haber un motivo mayor detrás, no hay otra explicación.",
         "Quieres explicaciones al respecto. Discuten del tema pero al final su actitud desleal no puede ser ignorada, separar caminos será lo mejor.",
@@ -92,7 +92,7 @@
     },
     {
       "questionText": "Si cometes un error que causa una pérdida, ¿qué pensamientos te vienen a la mente?",
-      "questionIcon": "/10.png",
+      "questionIcon": "/13.png",
       "answerOptions": [
         "Arrepentimiento y frustración conmigo mismo, no estoy seguro de qué pasos tomar a continuación.",
         "Debo actuar con rapidez para recuperarme de mis errores, no puedo arriesgarme a perder mi enfoque.",
@@ -122,7 +122,7 @@
     },
     {
       "questionText": "Estás a punto de comenzar un juego de mesa con tus amigos, pero primero deben elegir qué figuras les representarán. Tú…",
-      "questionIcon": "/13.png",
+      "questionIcon": "/20-3.png",
       "answerOptions": [
         "Elige primero y llevate la figura que más te guste antes de que alguien más la tome.",
         "Deja que tus amigos elijan la figura que querias si ellos tambien la querian, pero si no es el caso, tomalo.",
@@ -132,7 +132,7 @@
     },
     {
       "questionText": "Durante una competición, dejas atrás a un amigo para ganar. Tu amigo te dice después que está herido porque lo dejaste atrás. ¿Como reaccionas?",
-      "questionIcon": "/14.png",
+      "questionIcon": "/12.png",
       "answerOptions": [
         "Te arrepientes de haberle dejado atras, estabas tan concentrado en la victoria que no te detuviste a pensar como elle se sentiría.",
         "No fue tu intención lastimarlos, después de asegurarte de que te perdonen, prometes compensarlos de alguna manera.",
@@ -142,7 +142,7 @@
     },
     {
       "questionText": "De repente, te encierran bajo llave en una habitación oscura ¿Qué haces?",
-      "questionIcon": "/15.png",
+      "questionIcon": "/22-1.png",
       "answerOptions": [
         "Con un poco de fuerza bruta logras abrir la puerta y les preguntas con bastante confusión por qué te habían encerrado.",
         "Para algo existen los celulares, por lo que llamas a tus amigos para pedirles ayuda. Luego harás que la persona responsable pague caro.",
@@ -152,7 +152,7 @@
     },
     {
       "questionText": "Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
-      "questionIcon": "/16.png",
+      "questionIcon": "/20-3.png",
       "answerOptions": [
         "Por la emoción de trabajar con gente nueva ya tienes una visión en mente, luego encontrarán forma de mezclarlo todo.",
         "Rápidamente se dividen en tareas que a cada uno le guste hacer e intentan cooperar para hacer un buen trabajo.",
@@ -162,7 +162,7 @@
     },
     {
       "questionText": "Después de haber seguido una serie durante años, el final te ha dejado insatisfecho por algún motivo. ¿Cómo reaccionas?",
-      "questionIcon": "/17.png",
+      "questionIcon": "/25-4.png",
       "answerOptions": [
         "No te importa si el final no fue perfecto para ti, siempre y cuando todos lo disfruten, el viaje fue muy gratificante.",
         "Te quejas de lo malo que fue el final por un rato pero pronto dejas de hablar de ello.",
@@ -172,7 +172,7 @@
     },
     {
       "questionText": "Has estado luchando con algo últimamente y se ha vuelto tan notorio que un amigo se ha ofrecido a ayudarte. Tu...",
-      "questionIcon": "/18.png",
+      "questionIcon": "/11.png",
       "answerOptions": [
         "Aceptas su ayuda, cualquiera que quiera echarte una mano en lo que estás haciendo es más que bienvenido.",
         "No quisieras molestarle, pero si está seguro, estarás más que feliz de aceptar su ayuda y apreciar profundamente el gesto.",
@@ -182,7 +182,7 @@
     },
     {
       "questionText": "¿Cómo sueles acercarte a conocer gente nueva?",
-      "questionIcon": "/19.png",
+      "questionIcon": "/23.png",
       "answerOptions": [
         "Con ilusión y ganas de conocerlos. Esperas que puedan ser amigos.",
         "Con cierto cuidado, pero aún dispuesto a participar.",
@@ -192,7 +192,7 @@
     },
     {
       "questionText": "Cuando estás jugando, formando parte de un equipo con otras personas, a menudo...",
-      "questionIcon": "/19.png",
+      "questionIcon": "/14.png",
       "answerOptions": [
         "Juegas como quieras sin importar la situación, confias en las habilidades de tu equipo.",
         " Haces lo que creas que es más eficaz, pero consideras otras opciones si a tu equipo no le esta yendo demasiado bien.",
@@ -202,7 +202,7 @@
     },
     {
       "questionText": "¿Cómo te sientes al ser el centro de atención?",
-      "questionIcon": "/19.png",
+      "questionIcon": "/8-5.png",
       "answerOptions": [
         "Se siente muy bien y es hasta energizante.",
         "No te gusta y evitas activamente ser el centro de atención",
@@ -212,7 +212,7 @@
     },
     {
       "questionText": "Cuando te sientes estresado, ¿qué prefieres hacer?",
-      "questionIcon": "/19.png",
+      "questionIcon": "/6.png",
       "answerOptions": [
         "Hablas con alguien al respecto. Eres muy vocal sobre tus sentimientos y te ayuda a procesarlos.",
         "Le dejas saber a tus amigos que te sientes mal y que te tomarás un tiempo.",
@@ -222,7 +222,7 @@
     },
     {
       "questionText": "¡Nos invaden los extraterrestres! ¿Qué hacemos?",
-      "questionIcon": "/23.png",
+      "questionIcon": "/10.png",
       "answerOptions": [
         "¡Sin dudarlo te diriges al combate para proteger a tus amigos y todo el planeta!",
         "Decides proteger a los tuyos tomando la decisión de huir todos juntos. Solo un idiota enfrentaría esas cosas.",
@@ -232,7 +232,7 @@
     },
     {
       "questionText": "Te gusta una persona... Pero no es fácil dar el primer paso. ¿Cómo llamas su atención?",
-      "questionIcon": "/24.png",
+      "questionIcon": "/15.png",
       "answerOptions": [
         "Te declaras sin pensarlo dos veces, no te pasa por la cabeza la chance de ser rechazado.",
         "De forma discreta intentas abordar la conversación pero sin ser tan directo, necesitas saber cómo podría reaccionar.",
@@ -242,7 +242,7 @@
     },
     {
       "questionText": "Por último, y esta es la pregunta más importante...¿Qué Pou eres?",
-      "questionIcon": "/24.png",
+      "questionIcon": "/22-4.png",
       "imageAnswer": true,
       "answerOptions": [
         "/26-1.png",
