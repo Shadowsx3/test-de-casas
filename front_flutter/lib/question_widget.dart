@@ -6,10 +6,10 @@ class QuestionWidget extends StatelessWidget {
   final ValueChanged<int> onAnswer; // Change the callback to accept an int
 
   const QuestionWidget({
-    super.key,
+    Key? key,
     required this.questionData,
     required this.onAnswer,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,48 +19,93 @@ class QuestionWidget extends StatelessWidget {
         final questionText = questionData['questionText'];
         final answerOptions = questionData['answerOptions'];
 
-        return Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Image.asset(
-              "images/$questionIcon",
-              fit: BoxFit.fitHeight,
-              width: 350,
-            ),
-            SingleChildScrollView(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Container(
-                    width: 500,
-                    decoration: BoxDecoration(
-                      color: Colors.black,
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    padding: const EdgeInsets.all(14.0),
-                    margin: const EdgeInsets.only(top: 60),
-                    child: Text(
-                      questionText,
-                      style: const TextStyle(
-                        fontSize: 14,
-                        color: Colors.white,
+        return LayoutBuilder(
+          builder: (context, constraints) {
+            final isSmallScreen = constraints.maxWidth < 880;
+
+            return isSmallScreen
+                ? Center(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            "images/$questionIcon",
+                            fit: BoxFit.fitHeight,
+                            width: isSmallScreen ? 250 : 350,
+                          ),
+                          const SizedBox(height: 20),
+                          Container(
+                            width: isSmallScreen ? 400 : 500,
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            padding: const EdgeInsets.all(14.0),
+                            child: Text(
+                              questionText,
+                              style: const TextStyle(
+                                fontSize: 14,
+                                color: Colors.white,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          const SizedBox(height: 20),
+                          AnswerOptionsWidget(
+                            answerOptions: answerOptions,
+                            onAnswer: (selectedAnswerIndex) {
+                              onAnswer(selectedAnswerIndex);
+                            },
+                          ),
+                          const SizedBox(height: 20),
+                        ],
                       ),
-                      textAlign: TextAlign.center,
                     ),
-                  ),
-                  const SizedBox(height: 20),
-                  AnswerOptionsWidget(
-                    answerOptions: answerOptions,
-                    onAnswer: (selectedAnswerIndex) {
-                      // Pass the selected answer index to the callback
-                      onAnswer(selectedAnswerIndex);
-                    },
-                  ),
-                  const SizedBox(height: 20),
-                ],
-              ),
-            ),
-          ],
+                  )
+                : Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.asset(
+                        "images/$questionIcon",
+                        fit: BoxFit.fitHeight,
+                        width: 350,
+                      ),
+                      SingleChildScrollView(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              width: 500,
+                              decoration: BoxDecoration(
+                                color: Colors.black,
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              padding: const EdgeInsets.all(14.0),
+                              margin: const EdgeInsets.only(top: 60),
+                              child: Text(
+                                questionText,
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.white,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                            const SizedBox(height: 20),
+                            AnswerOptionsWidget(
+                              answerOptions: answerOptions,
+                              onAnswer: (selectedAnswerIndex) {
+                                onAnswer(selectedAnswerIndex);
+                              },
+                            ),
+                            const SizedBox(height: 20),
+                          ],
+                        ),
+                      ),
+                    ],
+                  );
+          },
         );
       },
     );
