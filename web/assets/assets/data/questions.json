@@ -1,0 +1,273 @@
+{
+  "questions": [
+    {
+      "questionText": "Necesitas un importante libro de la zona restringida de la biblioteca. ¿Qué haces?",
+      "questionIcon": "/1.png",
+      "answerOptions": [
+        "Lo tomo prestado, luego me haré responsable de las consecuencias.",
+        "Con cuidado lo robas y huyes sin ser notado, que sea una lección por restringir un área de la biblioteca.",
+        "Tomas el libro y te aseguras de inculpar a alguien más, así te quedas con las manos limpias.",
+        "Convences a las personas necesarias para tomar el libro, y por tu persuación, es pan comido."
+      ]
+    },
+    {
+      "questionText": "Hoy tienes un examen muy importante y por algún motivo inexplicable, no estudiaste nada. Tú...",
+      "questionIcon": "/2.png",
+      "answerOptions": [
+        "Tal vez las verdaderas respuestas fueron los amigos que hicimos por el camino. Fallas terriblemente.",
+        "Con un grupo de amigos acuerdas de pasarse las respuestas, aquí nadie se queda atrás.",
+        "Planeas copiarte y delatas a cualquiera que actue sospechoso para librarte de culpa.",
+        "Eres fiel a tus principios y no necesitas copiar. Confiarás en tu memoria y esperarás lo mejor."
+      ]
+    },
+    {
+      "questionText": "Necesitas obtener información de alguien que no es muy receptivo. ¿Qué haces?",
+      "questionIcon": "/3.png",
+      "answerOptions": [
+        "Le presentas la opción de regalarle algo tuyo si colabora. Este es un intercambio justo, regalar algo valioso te parte el alma.",
+        "Lo engañas con tus palabras para que te diga exactamente lo que buscas sin que esa persona se de cuenta.",
+        "Lo amenazas con publicar información sensible suya si no colabora contigo. No lo pensabas hacer, pero te sacas una risa",
+        "Le convences para hacerle pensar que ayudarte es la única opción, le agradeces y le haces sentir bien por hacer lo correcto."
+      ]
+    },
+    {
+      "questionText": "Dos de tus amigos están discutiendo. Su discusión parece intensificarse rápidamente y tú decides...",
+      "questionIcon": "/22-2.png",
+      "answerOptions": [
+        "Observar desconcertado. Participarás si las cosas empiezan a salirse de control, pero por ahora lo unico que quieres es saber que esta pasando.",
+        "Intervenir. Ninguna discusion deberia poner en peligro la unidad del grupo, y no quieres que las cosas empeoren entre ellos.",
+        "Escuchas atentamente. Solo participarás en la discusión si te parece interesante exponer tus pensamientos.",
+        "Bajar las tensiones. Hay cosas mas importantes de las que preocuparse ¡Y estan empezando a ponerte de los nervios!"
+      ]
+    },
+    {
+      "questionText": "Cuando se te presentan dificultades, ¿qué haces?",
+      "questionIcon": "/6.png",
+      "answerOptions": [
+        "Lo aceptas tal y como viene, aguantas y luego te recuperas o te desahogas con tus amigos en busca de apoyo.",
+        " Es posible que te derriben, pero te levantaras poco despues, las dificultades son solo temporales.",
+        "Lo tomas de frente, las dificultades solo existen para endurecerte, si estás lo suficientemente decidido no hay nada que no puedas vencer.",
+        "Intentas calmarte y dejar que todo se te escape por un tiempo, necesitas algo de tiempo para ti y concentrarte en otras cosas."
+      ]
+    },
+    {
+      "questionText": "Tu mejor amigo te ha traicionado y ahora debes afrontarlo, decides..",
+      "questionIcon": "/6.png",
+      "answerOptions": [
+        "Te resulta difícil creerlo. Elle no sería capaz de hacer eso, debe haber un motivo mayor detrás, no hay otra explicación.",
+        "Quieres explicaciones al respecto. Discuten del tema pero al final su actitud desleal no puede ser ignorada, separar caminos será lo mejor.",
+        "Ignoras sus excusas. Cortas sus lazos lo suficiente como para mantener un ojo en elle y esperas que no vuelva a molestarte con el tema.",
+        "Intentas recuperar lo poco que queda con su debida distancia. Incluso si lo aprecias, no puedes dejar de lado tus propios intereses y bienestar."
+      ]
+    },
+    {
+      "questionText": "Tus mejores amigos harán una fiesta y están lanzando todo tipo de ideas para ver qué funciona. Tú...",
+      "questionIcon": "/12.png",
+      "answerOptions": [
+        "Sugieres las cosas que te gustaria ver en la fiesta, sumandolas a la creciente pila de ideas.",
+        " Escuchas sus ideas, examinas y apruebas las mejores para tener una fiesta entretenida para todos los involucrados.",
+        "Confias en tus mejores amigos para planear una gran fiesta y no te involucras a menos que estés en contra de algo que sugieran.",
+        "Tomas el control de la planificacion y la organización, con la esperanza de poder satisfacer a todos tus amigos."
+      ]
+    },
+    {
+      "questionText": "Te encuentras una fuente de los deseos la cual va a conceder lo que sea que pidas ¿Cual es tu prioridad?",
+      "questionIcon": "/25-1.png",
+      "answerOptions": [
+        "Pides la primera cosa que venga a tu mente, te alegras por unos segundos y luego te desanimas por desperdiciar tu deseo.",
+        "Luego de pensarlo por un tiempo, decides pedir algo valioso para ti y tus amigos. Un deseo no tiene valor si no puede compartirse.",
+        "No lo dudas, sabes lo que quieres. Pides algo que te beneficie, como conocimiento o algo material.",
+        "Piensas bien tu deseo, pues tiene que ser algo útil y duradero. Decides pedir algo que te sirva para cumplir tus metas."
+      ]
+    },
+    {
+      "questionText": "Tu amigo se ha olvidado su informe para hoy en su cuarto, y ha olvidado sus llaves dentro ¿Cómo planeas recuperar el informe?",
+      "questionIcon": "/9.png",
+      "answerOptions": [
+        "Debido a la urgencia del asunto te pones nervioso, no tardas en forzar la puerta para abrirla ¡Pueden cuestionar tus métodos pero no los resultados!",
+        "Te diste cuenta que podían pedirle la llave a uno de sus roomies para solucionar el problema, tarda un poco ¡Pero es válido y tiene el informe!",
+        "La situación te ha parecido hilarante por lo que empiezas a burlarte, y cinco minutos antes de entregar, haces aparecer el informe en sus manos.",
+        "Decides que esta es una lección valiosa para elle por lo que le reprochas. No obstante permites que cheque tu informe para que al menos entregue algo."
+      ]
+    },
+    {
+      "questionText": "Si cometes un error que causa una pérdida, ¿qué pensamientos te vienen a la mente?",
+      "questionIcon": "/13.png",
+      "answerOptions": [
+        "Arrepentimiento y frustración conmigo mismo, no estoy seguro de qué pasos tomar a continuación.",
+        "Debo actuar con rapidez para recuperarme de mis errores, no puedo arriesgarme a perder mi enfoque.",
+        "Me frustro mucho, pero trataré de pensar en dónde cometí el error para evitar que pase de nuevo.",
+        "Los errores son inminentes, uno debe estar siempre preparado para cometerlos y aprender de ellos."
+      ]
+    },
+    {
+      "questionText": "Vas de camino a clases tarde y te encuentras con alguien que necesita ayuda, tú…",
+      "questionIcon": "/11.png",
+      "answerOptions": [
+        "Te detienes a ayudarle, después puedes conseguir los apuntes de tu clase.",
+        "Lo ayudas. Antes de seguir tu camino le recuerdas que luego te tendrán que devolver el favor.",
+        "No es tu problema. Sigues de largo, ya tienes suficiente con llegar tarde.",
+        "Intentas encontrar el balance de ayudarle y no llegar tan tarde a clases."
+      ]
+    },
+    {
+      "questionText": "Tus amigos y tú han decidido pasar la tarde viendo algo en el cine. ¿Qué haces?",
+      "questionIcon": "/12.png",
+      "answerOptions": [
+        "Sugieres la pelicula que más quieres ver, pero no te molesta si terminan por no verla.",
+        "Dejas a tus amigos decidir y ver la pelicula que consideren seria la mejor para la noche.",
+        "Das tu opinion sobre la elección y les dejas decidir, interviniendo si llegan a elegir una horrible pelicula.",
+        "Das tu opinion sobre qué peliculas crees que serian más entretenidas segun  tus intereses y lo que has leído en internet."
+      ]
+    },
+    {
+      "questionText": "Estás a punto de comenzar un juego de mesa con tus amigos, pero primero deben elegir qué figuras les representarán. Tú…",
+      "questionIcon": "/20-3.png",
+      "answerOptions": [
+        "Elige primero y llevate la figura que más te guste antes de que alguien más la tome.",
+        "Deja que tus amigos elijan la figura que querias si ellos tambien la querian, pero si no es el caso, tomalo.",
+        "Fijas tus ojos en tu figura favorita y le preguntas a tus amigos si puedes quedartela si intentan tomarla. ",
+        "Deja que todos elijan primero antes de tomar la figura que más te guste de las que quedan."
+      ]
+    },
+    {
+      "questionText": "Durante una competición, dejas atrás a un amigo para ganar. Tu amigo te dice después que está herido porque lo dejaste atrás. ¿Como reaccionas?",
+      "questionIcon": "/12.png",
+      "answerOptions": [
+        "Te arrepientes de haberle dejado atras, estabas tan concentrado en la victoria que no te detuviste a pensar como elle se sentiría.",
+        "No fue tu intención lastimarlos, después de asegurarte de que te perdonen, prometes compensarlos de alguna manera.",
+        "Todavia estás feliz de haber logrado ganar gracias a su sacrificio y crees que valió la pena, después de todo era una competencia.",
+        "Hiciste lo que sentias que tenias que hacer para ganar en aquel entonces, aun asi, te disculpas, pero ambos ganaron y eso esta bien."
+      ]
+    },
+    {
+      "questionText": "De repente, te encierran bajo llave en una habitación oscura ¿Qué haces?",
+      "questionIcon": "/22-1.png",
+      "answerOptions": [
+        "Con un poco de fuerza bruta logras abrir la puerta y les preguntas con bastante confusión por qué te habían encerrado.",
+        "Para algo existen los celulares, por lo que llamas a tus amigos para pedirles ayuda. Luego harás que la persona responsable pague caro.",
+        "Decides que te morirás ahí dentro para que la persona que te encerró quede traumatizada y se arrepienta toda su vida.",
+        "Esperas tranquilamente a que alguien venga a rescatarte, quizá limpias mientras tanto. Tus conocidos no tardarán en notar tu falta."
+      ]
+    },
+    {
+      "questionText": "Debes hacer un trabajo grupal, en el cuál el profesor escoge a tus compañeros de equipo. Tú…",
+      "questionIcon": "/20-3.png",
+      "answerOptions": [
+        "Por la emoción de trabajar con gente nueva ya tienes una visión en mente, luego encontrarán forma de mezclarlo todo.",
+        "Rápidamente se dividen en tareas que a cada uno le guste hacer e intentan cooperar para hacer un buen trabajo.",
+        "Ignoras los aportes de tus compañeros. Trabajarás a tu propio ritmo y si tu trabajo es mejor que el suyo, los obligarás a que lo usen.",
+        "Tomas el liderazgo del grupo, solo tú puedes lograr que las ideas de tus compañeros sean escuchadas y que trabajen en armonía."
+      ]
+    },
+    {
+      "questionText": "Después de haber seguido una serie durante años, el final te ha dejado insatisfecho por algún motivo. ¿Cómo reaccionas?",
+      "questionIcon": "/25-4.png",
+      "answerOptions": [
+        "No te importa si el final no fue perfecto para ti, siempre y cuando todos lo disfruten, el viaje fue muy gratificante.",
+        "Te quejas de lo malo que fue el final por un rato pero pronto dejas de hablar de ello.",
+        "Te opones de forma beligerante al final y expresas muy abiertamente tu digusto y opinión al respecto.",
+        "Supones que cada uno tiene sus gustos y preferencias, y el final simplemente no se alineó con los tuyos."
+      ]
+    },
+    {
+      "questionText": "Has estado luchando con algo últimamente y se ha vuelto tan notorio que un amigo se ha ofrecido a ayudarte. Tu...",
+      "questionIcon": "/11.png",
+      "answerOptions": [
+        "Aceptas su ayuda, cualquiera que quiera echarte una mano en lo que estás haciendo es más que bienvenido.",
+        "No quisieras molestarle, pero si está seguro, estarás más que feliz de aceptar su ayuda y apreciar profundamente el gesto.",
+        "Rechazas su ayuda, si no puedes hacerlo solo pues no mereces terminarlo en primer lugar, necesitas demostrar tu valia.",
+        "Escuchas los consejos de tu amigo, pero prefieres ocuparte de las cosas tú mismo."
+      ]
+    },
+    {
+      "questionText": "¿Cómo sueles acercarte a conocer gente nueva?",
+      "questionIcon": "/23.png",
+      "answerOptions": [
+        "Con ilusión y ganas de conocerlos. Esperas que puedan ser amigos.",
+        "Con cierto cuidado, pero aún dispuesto a participar.",
+        "Con renuencia o evitación. Pocas veces tienes interés en hacer amigos.",
+        "Con interés. Siempre es bueno tener contactos de todo tipo."
+      ]
+    },
+    {
+      "questionText": "Cuando estás jugando, formando parte de un equipo con otras personas, a menudo...",
+      "questionIcon": "/14.png",
+      "answerOptions": [
+        "Juegas como quieras sin importar la situación, confias en las habilidades de tu equipo.",
+        " Haces lo que creas que es más eficaz, pero consideras otras opciones si a tu equipo no le esta yendo demasiado bien.",
+        "Te limitas a un rol con el que estés familiarizado y que sepas que beneficiara más a tu equipo.",
+        "Intentas ser lo mas útil posible para el equipo haciendo lo que más se necesite, independientemente de tus propios deseos."
+      ]
+    },
+    {
+      "questionText": "¿Cómo te sientes al ser el centro de atención?",
+      "questionIcon": "/8-5.png",
+      "answerOptions": [
+        "Se siente muy bien y es hasta energizante.",
+        "No te gusta y evitas activamente ser el centro de atención",
+        "Te encanta que se te aclame por tus logros, lo mereces.",
+        "Por fuera te muestras tolerandolo de forma humilde, pero te gusta."
+      ]
+    },
+    {
+      "questionText": "Cuando te sientes estresado, ¿qué prefieres hacer?",
+      "questionIcon": "/6.png",
+      "answerOptions": [
+        "Hablas con alguien al respecto. Eres muy vocal sobre tus sentimientos y te ayuda a procesarlos.",
+        "Le dejas saber a tus amigos que te sientes mal y que te tomarás un tiempo.",
+        "Te aislas sin explicación. Lo que menos quieres es compartir tu propio espacio en estos momentos.",
+        "Confias en que tomarte un descanso será suficiente, pero si alguien quiere consolarte, tampoco se lo negarás."
+      ]
+    },
+    {
+      "questionText": "¡Nos invaden los extraterrestres! ¿Qué hacemos?",
+      "questionIcon": "/10.png",
+      "answerOptions": [
+        "¡Sin dudarlo te diriges al combate para proteger a tus amigos y todo el planeta!",
+        "Decides proteger a los tuyos tomando la decisión de huir todos juntos. Solo un idiota enfrentaría esas cosas.",
+        "¿Por qué deberías hacer algo? Eso es responsabilidad del gobierno, tú no tienes por qué entrometerte.",
+        "Con la percepción de la realidad bien alterada confías en tus habilidades para hacer una alianza entre los aliens y el planeta."
+      ]
+    },
+    {
+      "questionText": "Te gusta una persona... Pero no es fácil dar el primer paso. ¿Cómo llamas su atención?",
+      "questionIcon": "/15.png",
+      "answerOptions": [
+        "Te declaras sin pensarlo dos veces, no te pasa por la cabeza la chance de ser rechazado.",
+        "De forma discreta intentas abordar la conversación pero sin ser tan directo, necesitas saber cómo podría reaccionar.",
+        "Tu no te confiesas, la gente se te confieza. Esperarás a que de el primer paso y si no lo hace, no lo merecías.",
+        "Los invitas a pasar el tiempo contigo y planeas muy bien la noche para que la confesión sea el momento estrella de la cita."
+      ]
+    },
+    {
+      "questionText": "Por último, y esta es la pregunta más importante...¿Qué Pou eres?",
+      "questionIcon": "/22-4.png",
+      "imageAnswer": true,
+      "answerOptions": [
+        "/26-1.png",
+        "/26-4.png",
+        "/26-3.png",
+        "/26-2.png"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "flag": "/DRACONUS.png",
+      "text": "La casa de Draconus es una comunidad arraigada en valores de honor, fuerza, lealtad y virtud. Sus miembros son reconocidos por su valentía, honestidad y altruismo, siempre priorizando el bienestar de los demás. Pertenecer a Draconus es ser parte de algo más grande que uno mismo, un privilegio que destaca el poder de la bondad y la virtud, así como la fuerza de la unidad y la lealtad.\n\n A través del aprendizaje, desarrollarás habilidades para actuar en situaciones de emergencia, liderar a otros y tomar decisiones difíciles en momentos cruciales. Te convertirás en un modelo a seguir, inspirando a otros a hacer lo correcto con tu generosidad y valentía como guía.\n\n Si estás comprometido a dejar una huella duradera en el mundo y marcar la diferencia, te extendemos una invitación a unirte a nosotros. Juntos, podemos contribuir a hacer de este mundo un lugar mejor. ¡Desenvaina tu espada y únete a nuestra lucha!"
+    },
+    {
+      "flag": "/VULPIRE.png",
+      "text": "La casa de Vulpire se caracteriza por ser un grupo de pensadores empíricos, guiados por la pasión y la convicción. Sus miembros destacan por su creatividad, persuasión e inteligencia, y a pesar de valorar su independencia, también aprecian la cooperación, por lo que están dispuestos a unirse para lograr sus metas ambiciosas.\n\n La capacitación en este ámbito te permitirá liderar y ser un modelo a seguir. Aprenderás a aplicar tus habilidades personales para superar desafíos, a confiar en ti mismo, a aprender de la experiencia y a encontrar soluciones ingeniosas. Tu capacidad para persuadir y colaborar será esencial en situaciones difíciles, y tu sed de superación te impulsará incluso en los momentos más adversos.\n\n Si estás dispuesto a utilizar tus habilidades para enfrentar los desafíos de la vida y explorar lo que el mundo ofrece, te invitamos a unirte a nosotros. Juntos, haremos de la vida una experiencia emocionante y llena de descubrimientos. ¡Empaca tus cosas y únete a nuestra aventura!"
+    },
+    {
+      "flag": "/MYSTICORN.png",
+      "text": "La casa de Mysticorn representa la ambición, la experimentación y la búsqueda de la gloria a través de la magia. Sus miembros son apasionados por expandir su conocimiento y comprensión de la magia, sin temor a desafiar límites ni explorar nuevos senderos. Orgullosos de sus logros, buscan constantemente superarse a sí mismos.\n\nPertenecer a Mysticorn implica comprometerse con una vida de crecimiento y exploración continua, donde se persigue el máximo potencial.  Proporcionamos las herramientas necesarias para perfeccionar tus habilidades, desde hechizos avanzados hasta liderazgo en proyectos e investigaciones. Se te desafiará constantemente para que alcances tu máximo rendimiento. \n\nAquí no solo aprenderás magia, sino también valiosas habilidades personales como la perseverancia, la tenacidad y la ambición. Únete a nuestra comunidad y destácate como uno de los mejores de la escuela. ¡Aprende, crece y vence!"
+    },
+    {
+      "flag": "/DIPHENIX.png",
+      "text": "La casa de Diphenix representa la determinación, lógica y rectitud. Sus miembros son personas de voluntad fuerte y convicciones firmes, destacando por su sabiduría y reflexión en la resolución de problemas. Poseen un liderazgo natural y abogan por lo que consideran justo y equitativo.\n\n Esta casa promueve valores como la verdad, la integridad, la justicia y la equidad. Tu habilidad para analizar situaciones complejas y tomar decisiones es invaluable en el mundo. La formación en este campo te permitirá ser un líder y modelo a seguir. Aprenderás a aplicar tus habilidades para resolver conflictos y garantizar la justicia.\n\n Tu capacidad para mediar y resolver conflictos será esencial en momentos difíciles, y tu compromiso será una fuente de inspiración para aquellos que buscan rectitud. Si estás dispuesto a utilizar tus habilidades para hacer una diferencia y luchar por lo que es justo ¡Te invitamos a unirte a nosotros en la creación de un mundo más justo!"
+    }
+  ]
+}
