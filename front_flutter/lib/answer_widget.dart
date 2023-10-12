@@ -20,6 +20,7 @@ class AnswerOptionsWidget extends StatelessWidget {
     final itemHeight = isSmallScreen ? 300.0 : 500.0;
 
     final grid = GridView.builder(
+      physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: isSmallScreen ? 1 : 2,
