@@ -1,35 +1,90 @@
 import 'package:flutter/material.dart';
-import 'package:front_flutter/quiz.dart';
+import 'package:flutter/services.dart';
+import 'dart:convert';
+import 'quiz.dart'; // Make sure to import your 'quiz.dart' file
 
 void main() {
   runApp(const MyApp());
 }
 
+class DataLoadingAndCaching {
+  static Future<String> loadDataAndPrecacheImages(BuildContext context) async {
+    var data = await rootBundle.loadString("assets/data/questions.json");
+    return data;
+  }
+
+  static void precache(BuildContext context, String data) {
+    List<dynamic> questionsData = json.decode(data)["questions"];
+    List<dynamic> resultsData = json.decode(data)["results"];
+
+    precacheImage(const AssetImage("assets/images/fondo.png"), context);
+    for (var question in questionsData) {
+      precacheImage(
+        AssetImage("assets/images/${question['questionIcon']}"),
+        context,
+      );
+
+      for (var item in question['answerOptions']) {
+        if (item.toString().contains(".png")) {
+          precacheImage(
+            AssetImage("assets/images/$item"),
+            context,
+          );
+        }
+      }
+    }
+
+    // Precache all images for results
+    for (var result in resultsData) {
+      precacheImage(
+        AssetImage("assets/images/${result["flag"]}"),
+        context,
+      );
+    }
+  }
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Test de casas',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: const ColorScheme.dark().copyWith(primary: Colors.orange),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(),
+    return FutureBuilder<String>(
+      future: DataLoadingAndCaching.loadDataAndPrecacheImages(context),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.done) {
+          DataLoadingAndCaching.precache(context, snapshot.data ?? "");
+          return MaterialApp(
+              title: 'Test de casas',
+              debugShowCheckedModeBanner: false,
+              theme: ThemeData(
+                colorScheme:
+                const ColorScheme.dark().copyWith(primary: Colors.orange),
+                useMaterial3: true,
+              ),
+              home: MyHomePage(data: snapshot.data ?? ""));
+        } else {
+          return const MaterialApp(
+            home: Scaffold(
+              body: Center(
+                child: CircularProgressIndicator(),
+              ),
+            ),
+          );
+        }
+      },
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+  final String data;
+
+  const MyHomePage({Key? key, required this.data}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
-
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
@@ -47,10 +102,13 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                const Image(
-                  image: AssetImage("assets/images/escudos.png"),
-                  fit: BoxFit.fitHeight,
-                  width: 250,
+                SizedBox(
+                  height: 250,
+                  child: Image.asset(
+                    "assets/images/escudos.png",
+                    fit: BoxFit.fitHeight,
+                    width: 250,
+                  ),
                 ),
                 Container(
                   width: 500,
@@ -87,26 +145,24 @@ class _MyHomePageState extends State<MyHomePage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const QuizScreen()),
+                        builder: (context) => QuizScreen(data: widget.data),
+                      ),
                     );
                   },
                   style: TextButton.styleFrom(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      padding: const EdgeInsets.only(
-                        left: 20,
-                        right: 20,
-                        top: 12,
-                        bottom: 12,
-                      ),
-                      backgroundColor: Colors.orange),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                    backgroundColor: Colors.orange,
+                  ),
                   child: const Text(
                     'Empezar test',
                     style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
                     textAlign: TextAlign.center,
                   ),
                 )

@@ -29,10 +29,13 @@ class QuestionWidget extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image.asset(
-                            "assets/images/$questionIcon",
-                            fit: BoxFit.fitHeight,
-                            width: isSmallScreen ? 250 : 350,
+                          SizedBox(
+                            height: isSmallScreen ? 250 : 350,
+                            child: Image.asset(
+                              "assets/images/$questionIcon",
+                              fit: BoxFit.fitHeight,
+                              width: isSmallScreen ? 250 : 350,
+                            ),
                           ),
                           const SizedBox(height: 20),
                           Container(
@@ -66,10 +69,13 @@ class QuestionWidget extends StatelessWidget {
                 : Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Image.asset(
-                        "assets/images/$questionIcon",
-                        fit: BoxFit.fitHeight,
-                        width: 350,
+                      SizedBox(
+                        height: 350,
+                        child: Image.asset(
+                          "assets/images/$questionIcon",
+                          fit: BoxFit.fitHeight,
+                          width: 350,
+                        ),
                       ),
                       SingleChildScrollView(
                         child: Column(
