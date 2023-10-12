@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 const Image(
-                  image: AssetImage("images/escudos.png"),
+                  image: AssetImage("assets/images/escudos.png"),
                   fit: BoxFit.fitHeight,
                   width: 250,
                 ),

@@ -30,7 +30,7 @@ class QuestionWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Image.asset(
-                            "images/$questionIcon",
+                            "assets/images/$questionIcon",
                             fit: BoxFit.fitHeight,
                             width: isSmallScreen ? 250 : 350,
                           ),
@@ -67,7 +67,7 @@ class QuestionWidget extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Image.asset(
-                        "images/$questionIcon",
+                        "assets/images/$questionIcon",
                         fit: BoxFit.fitHeight,
                         width: 350,
                       ),

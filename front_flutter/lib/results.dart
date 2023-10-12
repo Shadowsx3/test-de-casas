@@ -17,7 +17,7 @@ class ResultsScreen extends StatelessWidget {
             children: [
               const SizedBox(height: 20),
               Image.asset(
-                "images/${result["flag"]}",
+                "assets/images/${result["flag"]}",
                 fit: BoxFit.fitHeight,
                 width: 250,
               ),

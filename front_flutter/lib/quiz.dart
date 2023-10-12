@@ -27,14 +27,14 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Future<void> _loadData() async {
-    var data = await rootBundle.loadString("data/questions.json");
+    var data = await rootBundle.loadString("assets/data/questions.json");
     setState(() {
       questionsData = json.decode(data)["questions"];
       resultsData = json.decode(data)["results"];
       for (var result in resultsData) {
         precacheImage(
             AssetImage(
-              "images/${result["flag"]}",
+              "assets/images/${result["flag"]}",
             ),
             context);
       }
@@ -47,7 +47,7 @@ class _QuizScreenState extends State<QuizScreen> {
     if (nextQuestionIndex < questionsData.length) {
       precacheImage(
           AssetImage(
-            "images/${questionsData[nextQuestionIndex]['questionIcon']}",
+            "assets/images/${questionsData[nextQuestionIndex]['questionIcon']}",
           ),
           context);
 
@@ -57,7 +57,7 @@ class _QuizScreenState extends State<QuizScreen> {
         for (var item in questionsData[nextQuestionIndex]['answerOptions']) {
           precacheImage(
               AssetImage(
-                "images/$item",
+                "assets/images/$item",
               ),
               context);
         }

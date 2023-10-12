@@ -50,7 +50,7 @@ class AnswerOptionsWidget extends StatelessWidget {
             ),
             child: answer.contains(".png")
                 ? Image.asset(
-                    "images/$answer",
+                    "assets/images/$answer",
                     fit: BoxFit.fitHeight,
                     width:
                         itemWidth / (isSmallScreen ? 1.5 : 2.5), // Adjust width
