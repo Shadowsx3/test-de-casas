@@ -31,45 +31,38 @@ class _QuizScreenState extends State<QuizScreen> {
     setState(() {
       questionsData = json.decode(data)["questions"];
       resultsData = json.decode(data)["results"];
-      for (var result in resultsData) {
+
+      // Precache all images for questions
+      for (var question in questionsData) {
         precacheImage(
-            AssetImage(
-              "assets/images/${result["flag"]}",
-            ),
-            context);
-      }
-      _preloadNextImage();
-    });
-  }
+          AssetImage("assets/images/${question['questionIcon']}"),
+          context,
+        );
 
-  void _preloadNextImage() {
-    final nextQuestionIndex = questionIndex + 1;
-    if (nextQuestionIndex < questionsData.length) {
-      precacheImage(
-          AssetImage(
-            "assets/images/${questionsData[nextQuestionIndex]['questionIcon']}",
-          ),
-          context);
-
-      final nextQuestionFirstAnswer =
-          questionsData[nextQuestionIndex]['answerOptions'][0];
-      if (nextQuestionFirstAnswer.toString().contains(".png")) {
-        for (var item in questionsData[nextQuestionIndex]['answerOptions']) {
-          precacheImage(
-              AssetImage(
-                "assets/images/$item",
-              ),
-              context);
+        for (var item in question['answerOptions']) {
+          if (item.toString().contains(".png")) {
+            precacheImage(
+              AssetImage("assets/images/$item"),
+              context,
+            );
+          }
         }
       }
-    }
+
+      // Precache all images for results
+      for (var result in resultsData) {
+        precacheImage(
+          AssetImage("assets/images/${result["flag"]}"),
+          context,
+        );
+      }
+    });
   }
 
   void _answerQuestion(int selectedAnswerIndex) {
     setState(() {
       score[selectedAnswerIndex] = score[selectedAnswerIndex]! + 1;
       questionIndex++;
-      _preloadNextImage();
     });
   }
 
